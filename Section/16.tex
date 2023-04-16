@@ -1,0 +1,146 @@
+\section{16. Übungsblatt}
+
+\subsection{Aufgabe 16.1}
+
+\subsection{Aufgabe 16.2}
+
+\newpage
+
+\subsection{Aufgabe 16.3(H)}
+
+\paragraph{(a)}
+$ $\newline
+
+$f(x):=x\cdot e^x$
+\begin{align*}
+f(x)=f^{(0)}&=x\cdot e^x\\
+f^{(1)}&=e^x+x\cdot e^x\\
+f^{(2)}&=e^x+e^x+x\cdot e^x
+\end{align*}
+
+$erraten$:
+
+\begin{equation}
+f^{(n)}=n\cdot e^x+x\cdot e^x
+\end{equation}
+
+\begin{proof}
+$ $\newline
+
+$\mathbf{IA}$: Sei $n=0$, es gilt $f(x)=f^{(0)}=x\cdot e^x$\\
+
+$\mathbf{IV}$:
+\begin{equation}
+f^{(n)}=n\cdot e^x+x\cdot e^x
+\end{equation}\\
+
+$\mathbf{IS}$: Sei $\tilde{n}=n+1$
+\begin{align}
+f^{(\tilde{n})}&=f^{(n+1)}\\
+&=(f^{(n)})'\\
+&=n\cdot e^x+e^x+x\cdot e^x\\
+&=(n+1)\cdot e^x+x\cdot e^x
+\end{align}
+\end{proof}
+
+$g(x):=\sin^2x$
+\begin{align*}
+f(x)=f^{(0)}&=\sin^2x\\
+f^{(1)}&=2\sin x\cdot\cos x=\sin 2x\\
+f^{(2)}&=2\cos 2x\\
+f^{(3)}&=-4\sin 2x\\
+f^{(4)}&=-8\cos 2x\\
+f^{(5)}&=16\sin 2x\\
+f^{(6)}&=32\cos 2x
+\end{align*}
+
+$erraten$:
+
+$n=2k-1$, $k\in\mathbb{N}_{>0}$:
+\begin{equation}
+f^{(n)}=-1^{\frac{n-1}{2}}\cdot 2^{n-1}\cdot\sin 2x
+\end{equation}
+
+$n=2k$, $k\in\mathbb{N}_{>0}$:
+\begin{equation}
+f^{(n)}=-1^{\frac{n-2}{2}}\cdot 2^{n-1}\cdot\cos 2x
+\end{equation}\\
+
+Induktion für $n=2k-1$, $k\in\mathbb{N}_{>0}$:
+\begin{proof}
+$ $\newline
+
+$\mathbf{IA}$: Sei $n=1$, es gilt $f^{(1)}=\sin 2x$\\
+
+$\mathbf{IV}$:
+\begin{equation}
+f^{(n)}=-1^{\frac{n-1}{2}}\cdot 2^{n-1}\cdot\sin 2x
+\end{equation}\\
+
+$\mathbf{IS}$: Sei $\tilde{n}=n+2$
+\begin{align}
+f^{(\tilde{n})}&=f^{(n+2)}\\
+&=(f^{(n)})''\\
+&=-1^{\frac{n-1}{2}}\cdot 2^{n-1}\cdot 2^2\cdot -1\cdot \sin 2x\\
+&=-1^{\frac{(n+2)-1}{2}}\cdot 2^{(n+2)-1}\cdot \sin 2x
+\end{align}
+\end{proof}
+
+Induktion für $n=2k$, $k\in\mathbb{N}_{>0}$:
+\begin{proof}
+$ $\newline
+
+$\mathbf{IA}$: Sei $n=2$, es gilt $f^{(2)}=2\cos 2x$\\
+
+$\mathbf{IV}$:
+\begin{equation}
+f^{(n)}=-1^{\frac{n-2}{2}}\cdot 2^{n-1}\cdot\cos 2x
+\end{equation}\\
+
+$\mathbf{IS}$: Sei $\tilde{n}=n+2$
+\begin{align}
+f^{(\tilde{n})}&=f^{(n+2)}\\
+&=(f^{(n)})''\\
+&=-1^{\frac{n-2}{2}}\cdot 2^{n-1}\cdot 2^2\cdot -1\cdot \cos 2x\\
+&=-1^{\frac{(n+2)-2}{2}}\cdot 2^{(n+2)-1}\cdot \cos 2x
+\end{align}
+\end{proof}
+
+\newpage
+
+\paragraph{(b)}
+\begin{align*}
+h=h^{(0)}&=x^2\cdot e^x\\
+h^{(1)}&=(0+2x+x^2)e^x\\
+h^{(2)}&=(2+4x+x^2)e^x\\
+h^{(3)}&=(6+6x+x^2)e^x\\
+h^{(4)}&=(12+8x+x^2)e^x\\
+h^{(5)}&=(20+10x+x^2)e^x\\
+h^{(6)}&=(30+12x+x^2)e^x\\
+&\hspace{6pt}\vdots\\
+h^{(1000)}&=(999000+2000x+x^2)e^x
+\end{align*}
+
+$erraten$:
+\begin{equation*}
+h^{(n)}=((n^2-n)+2nx+x^2)e^x
+\end{equation*}
+
+\begin{proof}
+$ $\newline
+
+$\mathbf{IA}$: Sei $n=0$, es gilt $h^{(0)}=x^2\cdot e^x$\\
+
+$\mathbf{IV}$:
+$erraten$:
+\begin{equation*}
+h^{(n)}=((n^2-n)+2nx+x^2)e^x
+\end{equation*}\\
+
+$\mathbf{IS}$: Sei $\tilde{n}=n+1$
+\begin{align}
+h^{(\tilde{n})}=h^{(n+1)}&=(h^{(n)})'\\
+&=(2n+2x+(n^2-n)+2nx+x^2)e^x\\
+&=(((n+1)^2-(n+1))+2(n+1)x+x^2)e^x
+\end{align}
+\end{proof}

@@ -1,0 +1,91 @@
+\section{17. Übungsblatt}
+
+\subsection{Aufgabe 17.1}
+$ $\newline
+
+Es gilt $\alpha+\beta=\gamma$, dann
+
+$\tan\alpha=\frac{x}{h_2}$, $\tan\gamma=\frac{x}{h_2-h_1}$
+
+$\Rightarrow$ $\gamma-\beta=\alpha(x)=\arctan\frac{x}{h_2-h_1}-\arctan\frac{x}{h_2}$
+
+\begin{align*}
+\alpha'(x)&=\frac{1}{1+(\frac{x}{h_2-h_1})^2}\cdot\frac{1}{h_2-h_1}-\frac{1}{1+(\frac{x}{h_2})^2}\cdot\frac{1}{h_2}\\
+&=\frac{(h_2-h_1)^2}{h_2-h_1}\frac{1}{(h_2-h_1)^2+x^2}-\frac{h_2^2}{h_2}\frac{1}{h_2^2+x^2}\\
+&=(h_2-h_1)\cdot\frac{1}{(h_2-h_1)^2+x^2}-h_2\frac{1}{h_2^2+x^2}\underset{lok.min}{=}0
+\end{align*}
+
+$\Leftrightarrow$ $x=\pm\sqrt{h_2^2-h_1h_2}$ nehmen wir $+$, $\approx134,7cm$\\
+
+$\alpha''(x)
+\left\{
+\begin{array}{rcl}
+>0 & lok.Min\\
+=0 & ??\\
+<0 & lok.Max 
+\end{array}
+\right.$
+
+\subsection{Aufgabe 17.2}
+$ $\newline
+
+$f(x)\geq f'(x)\geq 0$ $\Rightarrow$ $f$ ist mon. ansteigend
+
+$f(x_0)=0$
+
+$\forall x<x_0:\ 0\leq f(x)\leq f(x_0)=0$ $\Rightarrow$ $f(x)=0$\\
+
+$g(x)=e^{-x}f(x)$, weil $e^{-x}>0,f(x)\geq0\Rightarrow g(x)\geq0$
+
+\begin{equation*}
+g'(x)=e^{-x}f'(x)-g(x)=e^{-x}f'(x)-e^{-x}f(x)=\underset{>0}{e^{-x}}\underset{\leq0}{(f'(x)-f(x))}
+\end{equation*}
+
+$\Rightarrow$ $g'(x)<0$, $g(x)$ mon. fall.
+
+\newpage
+
+\subsection{Aufgabe 17.3}
+
+\subsection{Aufgabe 17.4}
+$ $\newline
+
+$f(x)=x^3+ax^2+bx$
+
+Sei $a,b\in\mathbb{R}$, ist $\overline{x}$ ein lok. Extremastelle, so gilt $f'(\overline{x})=0$
+
+wegen $f'(x)=3x^2+2ax+b$ folgt
+
+\begin{align*}
+f'(x)=0&\Leftrightarrow x^2+\frac{2ax}{3}+\frac{b}{3}=0\\
+&\Leftrightarrow x=-\frac{a}{3}\pm\sqrt{\frac{a^2}{9}-\frac{b}{3}}=-\frac{a}{3}\pm\frac{1}{3}\sqrt{a^2-3b}
+\end{align*}
+
+$f''(x)=6x+2a=2\sqrt{a^2-3b}$
+
+\newpage
+
+\subsection{Tutorium}
+$ $\newline
+
+Lokale Extrema:
+
+$D_f\subseteq \mathbb{R}$ offen, $f:D_f\rightarrow\mathbb{R}$\\
+
+offene Menge:
+
+$B(x,\epsilon)$: $(x-\epsilon,x+\epsilon)$
+
+$B(x,\epsilon)\subseteq(a,b)$\\
+
+$x_0\in d_f$ heißt lokale Min/Max von $f$, falls gilt:
+
+$\exists\epsilon>0$, $\forall y\in B(x_0,\epsilon)$:
+
+$f(x_0):\leq f(y)/\geq f(y)$\\
+
+$D_f\subseteq \mathbb{R}$ offen, $f:D_f\rightarrow\mathbb{R}$ diffbar.
+
+$x_0\in D_f$ sei lok. Extremasstelle von $f$
+
+$\Rightarrow$ $f'(x_0)=0$

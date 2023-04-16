@@ -1,0 +1,385 @@
+\section{1. Übungsblatt: $Aussagen\ und\ Quantoren$}
+
+\subsection{Aufgabe 1.1}
+
+\paragraph{(a)}
+\begin{proof}
+$ $\newline
+Sei $p$ $wahr$:
+\begin{equation}
+p\ wahr\Rightarrow\neg p\ falsch
+\end{equation}
+\begin{equation}
+\Rightarrow (p\wedge\neg p)\ falsch
+\end{equation}
+\begin{equation}
+\Rightarrow \neg(p\wedge\neg p)\ wahr
+\end{equation}\\
+Sei $p$ $falsch$:
+\begin{equation}
+p\ falsch\Rightarrow\neg p\ wahr
+\end{equation}
+\begin{equation}
+\Rightarrow (p\wedge\neg p)\ falsch
+\end{equation}
+\begin{equation}
+\Rightarrow \neg(p\wedge\neg p)\ wahr
+\end{equation}\\
+$Folgerung:$ Diese Formel ist Tautologie.
+\end{proof}
+
+\paragraph{(b)}
+\begin{proof}
+$ $\newline
+\begin{center}
+\begin{tabular}{||c|c||c|c|c|c|c|c||}
+\hline
+$p$ & $q$ & $\neg p$ & $\neg q$ & $p\wedge q$ & $\neg(p\wedge q)$ & $(\neg p)\vee (\neg q)$ & $\neg(p\wedge q)\Leftrightarrow((\neg p)\vee (\neg q))$ \\
+\hline
+\hline
+$w$ & $w$ & $f$ & $f$ & $w$ & $f$ & $f$ & $w$ \\
+%\hline
+$w$ & $f$ & $f$ & $w$ & $f$ & $w$ & $w$ & $w$ \\
+%\hline
+$f$ & $w$ & $w$ & $f$ & $f$ & $w$ & $w$ & $w$ \\
+%\hline
+$f$ & $f$ & $w$ & $w$ & $f$ & $w$ & $w$ & $w$ \\
+\hline
+\end{tabular}
+\end{center}
+$Folgerung:$ Diese Formel ist Tautologie.
+\end{proof}
+
+\paragraph{(c)}
+\begin{proof}
+$ $\newline
+\begin{center}
+\begin{tabular}{||c|c||c|c|c|c|c||}
+\hline
+$p$ & $q$ & $\neg p$ & $\neg q$ & $p\Rightarrow q$ & $(p\Rightarrow q)\wedge (\neg q)$ & $((p\Rightarrow q)\wedge (\neg q))\Rightarrow (\neg p)$ \\
+\hline
+\hline
+$w$ & $w$ & $f$ & $f$ & $w$ & $f$ & $w$ \\
+%\hline
+$w$ & $f$ & $f$ & $w$ & $f$ & $f$ & $w$ \\
+%\hline
+$f$ & $w$ & $w$ & $f$ & $w$ & $f$ & $w$ \\
+%\hline
+$f$ & $f$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+\hline
+\end{tabular}
+\end{center}
+$Folgerung:$ Diese Formel ist Tautologie.
+\end{proof}
+
+\newpage
+
+\paragraph{(d)}
+\begin{proof}
+$ $\newline
+\begin{center}
+\begin{tabular}{||c|c|c||c|c|c|c|c|c||}
+\hline
+$p$ & $q$ & $r$ & $q\wedge r$ & $p\vee q$ & $p\vee r$ & $p\vee (q\wedge r)$ & $(p\vee q)\wedge (p\vee r)$ & $(p\vee (q\wedge r))\Leftrightarrow ((p\vee q)\wedge (p\vee r))$ \\
+\hline
+\hline
+$w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+
+$w$ & $w$ & $f$ & $f$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+
+$w$ & $f$ & $w$ & $f$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+
+$w$ & $f$ & $f$ & $f$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+
+$f$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+
+$f$ & $w$ & $f$ & $f$ & $w$ & $f$ & $f$ & $f$ & $w$ \\
+
+$f$ & $f$ & $w$ & $f$ & $f$ & $w$ & $f$ & $f$ & $w$ \\
+
+$f$ & $f$ & $f$ & $f$ & $f$ & $f$ & $f$ & $f$ & $w$ \\
+\hline
+\end{tabular}
+\end{center}
+$Folgerung:$ Diese Formel ist Tautologie.
+\end{proof}
+
+\paragraph{(e)}
+$ $\newline
+Die Negation von Satz "Satz vom Widerspruch" ist einfach eine Kontradiktion:
+\begin{equation*}
+\neg (\neg (p\wedge \neg p))\Leftrightarrow p\wedge \neg p\ \ (stets\ falsch)
+\end{equation*}
+
+\newpage
+
+\subsection{Aufgabe 1.2}
+
+\paragraph{}
+\begin{solution}
+$ $\newline
+Wir vereinfachen nun die Formel $(\neg ((p\Rightarrow (q\Rightarrow p))\wedge p)\vee (q\Rightarrow q))\Rightarrow p$ \\
+Nach Wahrheitstabelle gilt es:
+\begin{equation*}
+(p\Rightarrow (q\Rightarrow p))\Leftrightarrow p,\ (q\Rightarrow q)\Leftrightarrow q
+\end{equation*}
+Damit vereinfachen wir die Formel zu:
+\begin{equation}
+(\neg (p\wedge p)\vee q)\Rightarrow p
+\end{equation}
+Nach Wahrheitstabelle gilt es:
+\begin{equation*}
+(p\vee p)\Leftrightarrow p
+\end{equation*}
+Damit vereinfachen wir die Formel zu:
+\begin{equation}
+(\neg p\vee q)\Rightarrow p
+\end{equation}
+Nach Priorität von Verknüpfungen können wir noch vereinfachen:
+\begin{equation}
+\neg p\vee q\Rightarrow p
+\end{equation}
+\end{solution}
+\begin{remark}
+$(a\Rightarrow b)\Leftrightarrow(\neg a\wedge b)$
+\end{remark}
+
+\newpage
+
+\subsection{Aufgabe 1.3}
+
+\paragraph{(a)}
+\begin{solution}
+$ $\newline
+$(x\in\mathbb{R})\wedge(x^2=1)\Leftrightarrow (x=1)\wedge(x=-1)$
+\end{solution}
+\textbf{Negation}\\
+$\forall x\in\mathbb{R}$ und $x^2=1$ $\Rightarrow(x=1)\vee(x=-1)$
+
+\paragraph{(b)}
+\begin{solution}
+$ $\newline
+$\neg(\exists x\in\mathbb{R})\Rightarrow(x^2=-1)$
+\end{solution}
+\textbf{Negation}\\
+$(\exists x\in\mathbb{R})\Rightarrow(x^2=-1)$
+\begin{remark}
+Es gilt auch $\nexists x\in\mathbb{R}$
+\end{remark}
+
+\paragraph{(c)}
+\begin{solution}
+$ $\newline
+$(x\in\mathbb{N})\wedge((\frac{x}{6}\in\mathbb{Z})\vee((\frac{x}{4}\in\mathbb{Z})\wedge(\frac{x}{9}\in\mathbb{Z})))\Rightarrow(\frac{x}{2}\in\mathbb{Z})\wedge(\frac{x}{3}\in\mathbb{Z})$
+\end{solution}
+\textbf{Negation}\\
+$\exists n\in\mathbb{N}:\ (6|n)\vee((4|n)\wedge(9|n))\Rightarrow(2\nmid n)\vee(3\nmid n)$
+\begin{remark}
+$(a|b)$ bedeutet: $b$ durch $a$ teilbar
+\end{remark}
+
+\paragraph{(d)}
+\begin{solution}
+$ $\newline
+$(\forall x\in\mathbb{N})\Rightarrow(\exists y\in\mathbb{P})\wedge(y>x)$
+\end{solution}
+\textbf{Negation}\\
+$\exists n\in\mathbb{N}\ \forall p\in\mathbb{P}:\ p\leq n$
+
+\paragraph{(e)}
+\begin{solution}
+$ $\newline
+$(M\subset\mathbb{Z})\Rightarrow(\exists!k\in M)\wedge(\forall g\in M\setminus k)\wedge(g>k)$
+\end{solution}
+\textbf{Negation}\\
+$\exists M\subset\mathbb{N}:\ \forall m\in\ M\ \exists n\in\ M\setminus\{m\}:\ m\geq n$\\
+oder\\
+$\exists m_1,\ m_2\in\ M,\ m_1\neq m_2:\ m_1<n,\ m_2<n$
+
+\newpage
+
+\subsection{Aufgabe 1.4}
+Wir nennen: $G,\ H,\ N,\ D,\ R,\ Z,\ S$\\
+\begin{align}
+H\Rightarrow \neg G\\
+G\wedge \neg R\Rightarrow D\\
+\neg N\wedge \neg G\Rightarrow Z\vee D\\
+\neg S\Rightarrow\neg D\\
+G\Rightarrow S\veebar H\\
+R\Rightarrow N\veebar G\\
+Z\Rightarrow R\\
+S\Rightarrow N\\
+N\Rightarrow\neg R\wedge G
+\end{align}
+$Folgerung:$ Er ist krank.\\
+\null
+Nehmen wir an, dass:\\
+\begin{equation*}
+\neg N\wedge \neg G
+\end{equation*}
+gilt:\\
+\begin{equation*}
+\Rightarrow^{(3)} Z\vee G
+\end{equation*}
+falls:\\
+\begin{align*}
+Z=1\Rightarrow^{(1)}R\Rightarrow^{(6)}N\veebar G\\
+D=1\Rightarrow^{(4)}S\Rightarrow^{(8)}N\\
+N=1\Rightarrow^{(9)}\neg R\wedge G &\Rightarrow^{(7)}\neg Z\\
+&\Rightarrow^{(2)}S\veebar H\\
+&\Rightarrow^{(1)}\neg	H
+\end{align*}
+\begin{equation*}
+N\wedge S\wedge\neg H\wedge\neg R\wedge G\wedge\neg Z\wedge D
+\end{equation*}
+Falls:
+\begin{equation*}
+G\wedge\neg N
+\end{equation*}
+gilt es:
+\begin{align*}
+S\veebar H\\
+\end{align*}
+
+\newpage
+
+\subsection{Aufgabe 1.5(H)}
+
+\paragraph{(a)}
+\begin{proof}
+$ $\newline
+\begin{center}
+\begin{tabular}{||c|c|c||c|c|c|c|c|c||}
+\hline
+$p$ & $q$ & $r$ & $p\vee q$ & $p\wedge r$ & $q\wedge r$ & $(p\vee q)\wedge r$ & $(p\wedge r)\vee(q\wedge r)$ & $((p\vee q)\wedge r)\Leftrightarrow((p\wedge r)\vee(q\wedge r))$ \\
+\hline
+\hline
+$w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+$w$ & $w$ & $f$ & $w$ & $f$ & $f$ & $f$ & $f$ & $w$ \\
+$w$ & $f$ & $w$ & $w$ & $w$ & $f$ & $w$ & $w$ & $w$ \\
+$w$ & $f$ & $f$ & $w$ & $f$ & $f$ & $f$ & $f$ & $w$ \\
+$f$ & $w$ & $w$ & $w$ & $f$ & $w$ & $w$ & $w$ & $w$ \\
+$f$ & $w$ & $f$ & $w$ & $f$ & $f$ & $f$ & $f$ & $w$ \\
+$f$ & $f$ & $w$ & $f$ & $f$ & $f$ & $f$ & $f$ & $w$ \\
+$f$ & $f$ & $f$ & $f$ & $f$ & $f$ & $f$ & $f$ & $w$ \\
+\hline
+\end{tabular}
+\end{center}
+$Folgerung:$ Diese Formel ist Tautologie.
+\end{proof}
+
+\paragraph{(b)}
+\begin{proof}
+$ $\newline
+\begin{center}
+\begin{tabular}{||c|c||c|c|c|c||}
+\hline
+$p$ & $q$ & $\neg p$ & $p\Rightarrow q$ & $(\neg p)\vee q$ & $(p\Rightarrow q)\Leftrightarrow((\neg p)\vee q)$ \\
+\hline
+\hline
+$w$ & $w$ & $f$ & $w$ & $w$ & $w$ \\
+$w$ & $f$ & $f$ & $f$ & $f$ & $w$ \\
+$f$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+$f$ & $f$ & $w$ & $w$ & $w$ & $w$ \\
+\hline
+\end{tabular}
+\end{center}
+$Folgerung:$ Diese Formel ist Tautologie.
+\end{proof}
+
+\paragraph{(c)}
+\begin{proof}
+$ $\newline
+\begin{center}
+\begin{tabular}{||c|c||c|c|c|c|c||}
+\hline
+$p$ & $q$ & $\neg p$ & $\neg q$ & $p\Rightarrow q$ & $(\neg q)\Rightarrow(\neg p)$ & $(p\Rightarrow q)\Leftrightarrow((\neg q)\Rightarrow(\neg p))$ \\
+\hline
+\hline
+$w$ & $w$ & $f$ & $f$ & $w$ & $w$ & $w$ \\
+$w$ & $f$ & $f$ & $w$ & $f$ & $f$ & $w$ \\
+$f$ & $w$ & $w$ & $f$ & $w$ & $w$ & $w$ \\
+$f$ & $f$ & $w$ & $w$ & $w$ & $w$ & $w$ \\
+\hline
+\end{tabular}
+\end{center}
+$Folgerung:$ Diese Formel ist Tautologie.
+\end{proof}
+
+\newpage
+
+\subsection{Aufgabe 1.6(H)}
+
+\paragraph{Negation von $\varphi$}
+\begin{proof}
+\begin{equation*}
+(\varphi|\varphi)\Leftrightarrow(\neg(\varphi\wedge\varphi))\Leftrightarrow(\neg\varphi)
+\end{equation*}
+\end{proof}
+
+\paragraph{Konjunktion von $\varphi$ und $\psi$}
+\begin{proof}
+\begin{equation*}
+((\varphi|\psi)|(\varphi|\psi))\Leftrightarrow(\neg((\neg(\varphi\wedge\psi))\wedge(\neg(\varphi\wedge\psi))))\Leftrightarrow(\neg(\neg(\varphi\wedge\psi)))\Leftrightarrow(\varphi\wedge\psi)
+\end{equation*}
+\end{proof}
+
+\paragraph{Disjunktion von $\varphi$ und $\psi$}
+\begin{proof}
+\begin{equation*}
+((\varphi|\varphi)|(\psi|\psi))\Leftrightarrow((\neg\varphi)|(\neg\psi))\Leftrightarrow(\neg((\neg\varphi)\wedge(\neg\psi)))\Leftrightarrow(\neg(\neg(\varphi\vee\psi)))\Leftrightarrow(\varphi\vee\psi)
+\end{equation*}
+\end{proof}
+
+\newpage
+
+\subsection{Tutorium}
+
+\paragraph{1. Aussagen}
+$ $\newline
+Wir nehmen $wahr\ 1$ und $falsch\ 0$\\
+Sei $a$ ein Aussagen, dann gilt:
+\begin{equation*}
+a=1\ oder\ 0
+\end{equation*}
+
+\paragraph{2.Verknüpfungen}
+\begin{align*}
+\neg\ Negation\\
+\wedge\ Konjugtion\\
+\vee\ Disjunktion\\
+\veebar\ XOR\ \triangleq\ "entweder\ldots oder\ldots"
+\end{align*}
+
+\paragraph{3.Wahrheitstabelle}
+\begin{exmp}
+$ $\newline
+\begin{center}
+\begin{tabular}{|c||c|}
+\hline
+$a$ & $\neg a$ \\
+\hline
+$0$ & $1$ \\
+$1$ & $0$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{exmp}
+
+\paragraph{4.Quantor}
+\begin{center}
+$\forall$ "für alle"\\
+$\exists$ "existiert"\\
+$\exists !$ "existiert genau eine"
+\end{center}
+
+\newpage
+
+\begin{remark}
+$ $\newline
+\textbf{Tautologie}: Immer $wahr$\\
+\begin{equation*}
+p\vee\neg p=1
+\end{equation*}
+\null
+\end{remark}

@@ -1,0 +1,703 @@
+\section{4. Übungsblatt:}
+
+\subsection{Aufgabe 4.1}
+
+\paragraph{(a)}
+$\begin{pmatrix}
+2\\
+5
+\end{pmatrix}$
+\begin{equation*}
+\begin{pmatrix}
+2\\
+5
+\end{pmatrix}
+=\frac{2-4}{5}
+\begin{pmatrix}
+2\\
+4
+\end{pmatrix}
+=-\frac{2}{5}\frac{2-3}{4}
+\begin{pmatrix}
+2\\
+3
+\end{pmatrix}
+=\frac{2}{5}\frac{1}{4}\frac{2-2}{3}
+\begin{pmatrix}
+2\\
+2
+\end{pmatrix}
+=0
+\end{equation*}
+
+\paragraph{(b)}
+$\begin{pmatrix}
+-1\\
+k
+\end{pmatrix}$
+
+\begin{equation*}
+\begin{pmatrix}
+-1\\
+0
+\end{pmatrix}=1,
+\begin{pmatrix}
+-1\\
+1
+\end{pmatrix}=-1,
+\begin{pmatrix}
+-1\\
+2
+\end{pmatrix}=1,
+\end{equation*}
+Beh. $\begin{pmatrix}
+-1\\
+k
+\end{pmatrix}=(-1)^k$, mit Induktion.
+\begin{proof}
+$ $\newline
+
+IA:..\\
+
+IV:..\\
+
+IS:$\begin{pmatrix}
+-1\\
+k+1
+\end{pmatrix}$
+\begin{equation*}
+\begin{pmatrix}
+-1\\
+k+1
+\end{pmatrix}=\frac{-1-k}{k+1}
+\begin{pmatrix}
+-1\\
+k
+\end{pmatrix}=(-1)^{k+1}
+\end{equation*}
+\end{proof}
+
+\paragraph{(c)}
+$\begin{pmatrix}
+-\frac{1}{2}\\
+3
+\end{pmatrix}$
+\begin{equation*}
+\begin{pmatrix}
+-\frac{1}{2}\\
+3
+\end{pmatrix}
+=\frac{-\frac{1}{2}-2}{3}
+\begin{pmatrix}
+-\frac{1}{2}\\
+2
+\end{pmatrix}
+=-\frac{5}{6}\frac{-0.5-1}{2}
+\begin{pmatrix}
+-0.5\\
+1
+\end{pmatrix}
+=\frac{5}{6}\frac{3}{4}\frac{-0.5-0}{1}
+\begin{pmatrix}
+-0.5\\
+0
+\end{pmatrix}
+=-\frac{5}{16}
+\end{equation*}
+
+\newpage
+
+\subsection{Aufgabe 4.2}
+
+\paragraph{(a)}
+z.z. $\begin{pmatrix}
+x\\
+k
+\end{pmatrix}
+=
+\begin{pmatrix}
+x-1\\
+k-1
+\end{pmatrix}\frac{x}{k}$
+\begin{proof}
+$ $\newline
+
+IA: $k=1$, LS$=
+\begin{pmatrix}
+x\\
+1
+\end{pmatrix}
+=\frac{x-0}{1}
+\begin{pmatrix}
+x\\
+0
+\end{pmatrix}
+=\frac{x}{1}
+\begin{pmatrix}
+x-1\\
+0
+\end{pmatrix}$
+
+IV: für $k$ gilt
+\begin{equation*}
+\begin{pmatrix}
+x\\
+k
+\end{pmatrix}
+=\frac{x}{k}
+\begin{pmatrix}
+x-1\\
+k-1
+\end{pmatrix}
+\end{equation*}
+
+Ziel:
+\begin{equation*}
+\begin{pmatrix}
+x\\
+k+1
+\end{pmatrix}
+=\frac{x}{k+1}
+\begin{pmatrix}
+x-1\\
+k
+\end{pmatrix}
+\end{equation*}
+
+IS:
+\begin{align*}
+\begin{pmatrix}
+x\\
+k+1
+\end{pmatrix}
+=\frac{x}{k+1}
+\begin{pmatrix}
+x\\
+k
+\end{pmatrix}
+&\overset{\mathbf{IV}}{=}
+\frac{x-k}{k+1}\frac{x}{k}
+\begin{pmatrix}
+x-1\\
+k-1
+\end{pmatrix}\\
+&=\frac{x}{k+1}\frac{x-k}{k}\frac{k}{x-k}\frac{x-k}{k}
+\begin{pmatrix}
+x-1\\
+k-1
+\end{pmatrix}\\
+&=\frac{x}{k+1}
+\begin{pmatrix}
+x-1\\
+k
+\end{pmatrix}
+\end{align*}
+\end{proof}
+
+\paragraph{(b)}
+z.z. $
+\begin{pmatrix}
+x+1\\
+k
+\end{pmatrix}=
+\begin{pmatrix}
+x\\
+k-1
+\end{pmatrix}+
+\begin{pmatrix}
+x\\
+k
+\end{pmatrix}
+$
+\begin{proof}
+\begin{equation*}
+\begin{pmatrix}
+x+1\\
+k
+\end{pmatrix}
+=\frac{x+1}{k}
+\begin{pmatrix}
+x+1-1\\
+k-1
+\end{pmatrix}
+=\frac{x+1+k-k}{k}
+\begin{pmatrix}
+x\\
+k-1
+\end{pmatrix}
+=
+\underset{
+\begin{pmatrix}
+x\\
+k
+\end{pmatrix}
+}{\underbrace{
+\frac{\overset{x-(k-1)}{\overbrace{x+1-k}}}{k}
+\begin{pmatrix}
+x\\
+k-1
+\end{pmatrix}
+}}
++
+\begin{pmatrix}
+x\\
+k-1
+\end{pmatrix}
+\end{equation*}
+\end{proof}
+
+\newpage
+
+\subsection{Aufgabe 4.3}
+
+\begin{equation*}
+x^0:=1,\ x^{n+1}=x^{n}\cdot x
+\end{equation*}
+
+\paragraph{(a)}
+\begin{proof}
+z.z. $x^mx^n=x^{m+n}$\\
+
+Sei $\forall n\in\mathbb{N}_0$ fest $\rightarrow$ Induktion.\\
+
+IA: $n=0$: $x^mx^n=x^m\cdot 1=x^m=x^{m+n}$\\
+
+IV: $x^mx^n=x^{m+n}$\\
+
+Ziel: $x^mx^{n+1}=x^{m+n+1}$\\
+
+IS: LS$=x^m(x^nx)\overset{Ass.Mult}{=}(x^mx^n)x=x^{m+n}x=x^{(m+n)+1}=x^{m+(n+1)}$
+\end{proof}
+
+\paragraph{(b)}
+
+z.z. $(x^m)^n=x^{mn}$\\
+
+\begin{proof}
+$ $\newline
+
+Sei $\forall m\in\mathbb{N}_0$ fest\\
+
+IA: $n=0$,: $(x^m)^0=1=x^0=x^{m\cdot 0}$\\
+
+IV: $(x^m)^n=x^{mn}$\\
+
+Ziel: $(x^m)^{n+1}=x^{m(n+1)}$\\
+
+IS: $(x^m)^{n+1}=(x^m)^n\cdot x^m\overset{\mathbf{IV}}{=}x^{mn}x^n\overset{(a)}{=}x^{mn+n}$\\
+\end{proof}
+
+\paragraph{(c)}
+\begin{proof}
+$ $\newline
+
+IA: $n=0$ $\rightarrow$ $(x\cdot y)^n=1=1\cdot 1=x^0y^0$\\
+
+IV: ......\\
+
+IS: $(xy)^{n+1}=(xy)^n(xy)\overset{\mathbf{IV}}{=}(x^ny^n)(xy)\overset{Field-Axiom}{=}(x^nx)(y^ny)=x^{n+1}y^{n+1}$
+\end{proof}
+
+
+\newpage
+
+\subsection{Aufgabe 4.4}
+See definition of Group, Monoid etc.
+
+\newpage
+
+\subsection{Aufgabe 4.5}
+
+Inverse: Sei $(G,\cdot)$ Gruppe\\
+Man sagte dass $f\in G$ ist Inverse von $g\in G$\\
+$\overset{Def}{\Leftrightarrow}$ $f\cdot g=g\cdot f=e$, Notation: $f=:g^{-1}$
+
+\paragraph{(a)}
+\begin{proof}
+$ $\newline
+
+z.z. $(a^{-1})^{-1}=a$ falls $a\neq 0$\\
+
+$\Leftrightarrow$ $a$ ist Inv. von $a^{-1}$ $\Leftrightarrow$ $a\cdot a^{-1}=a^{-1}\cdot a=e$\\
+
+Das gilt da $a$ Inv. von $a^{-1}$
+\end{proof}
+
+\paragraph{(b)}
+\begin{proof}
+$ $\newline
+
+z.z. $(ab)^{-1}=a^{-1}b^{-1}$\\
+
+$(ab)(a^{-1}b^{-1})\overset{F.Axiom}{=}(a\cdot a^{-1})(b\cdot b^{-1})=1$\\
+
+$(a^{-1}b^{-1})(ab)\overset{F.Axiom}{=}(a^{-1}\cdot a)(b^{-1}\cdot b)=1$\\
+\end{proof}
+
+\newpage
+
+\subsection{Aufgabe 4.6(H)}
+
+\paragraph{(a)}
+\begin{proof}
+$ $\newline
+
+z.z. $\forall n\in\mathbb{N}_{\geq1}$, es gilt
+\begin{equation*}
+\sum_{k=0}^{n}\frac{(-1)^k}{k+1}
+\begin{pmatrix}
+n \\
+k
+\end{pmatrix}
+=
+\frac{1}{n+1}
+\end{equation*}
+
+Wir haben
+\begin{align*}
+\begin{pmatrix}
+n \\
+k
+\end{pmatrix}
+&=
+\frac{n}{k}
+\begin{pmatrix}
+n-1 \\
+k-1
+\end{pmatrix}\\
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}
+&=
+\frac{n+1}{k+1}
+\begin{pmatrix}
+n \\
+k
+\end{pmatrix}\\
+\frac{1}{n+1}
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}
+&=
+\frac{1}{k+1}
+\begin{pmatrix}
+n \\
+k
+\end{pmatrix}
+\end{align*}
+
+betrachten
+\begin{align*}
+\sum_{k=0}^{n}\frac{(-1)^k}{n+1}
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}
+&=
+\frac{1}{n+1}\\
+\frac{1}{n+1}
+\sum_{k=0}^{n}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}
+&=
+\frac{1}{n+1}\\
+\end{align*}
+
+dann, z.z. $\forall n\in\mathbb{N}_{\geq1}$
+\begin{equation*}
+\sum_{k=0}^{n}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}
+=
+1
+\end{equation*}
+
+IA: Sei $n=1$, es gilt
+\begin{equation*}
+\sum_{k=0}^{1}(-1)^k
+\begin{pmatrix}
+1+1 \\
+k+1
+\end{pmatrix}
+=
+1
+\begin{pmatrix}
+2 \\
+1
+\end{pmatrix}+
+(-1)
+\begin{pmatrix}
+2 \\
+2
+\end{pmatrix}
+=
+2-1
+=
+1
+\end{equation*}
+
+IV: $\forall n\in\mathbb{N}_{\geq1}$, es gilt
+\begin{equation*}
+\sum_{k=0}^{n}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}
+=
+1
+\end{equation*}
+
+IS: Sei $\tilde{n}=n+1$, wir betrachten
+\begin{align*}
+\sum_{k=0}^{\tilde{n}}(-1)^k
+\begin{pmatrix}
+\tilde{n}+1 \\
+k+1
+\end{pmatrix}
+&=
+\sum_{k=0}^{n+1}(-1)^k
+\begin{pmatrix}
+n+2 \\
+k+1
+\end{pmatrix}\\
+&=
+\sum_{k=0}^{n+1}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}+
+\sum_{k=0}^{n+1}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k
+\end{pmatrix}\\
+&=
+\sum_{k=0}^{n}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k+1
+\end{pmatrix}+
+(-1)^{n+1}
+\begin{pmatrix}
+n+1 \\
+n+2
+\end{pmatrix}+
+\sum_{k=0}^{n}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k
+\end{pmatrix}+
+(-1)^{n+1}
+\begin{pmatrix}
+n+1 \\
+n+1
+\end{pmatrix}\\
+&\overset{\mathbf{IV}}{=}
+1+0+
+\sum_{k=0}^{n}(-1)^k
+\begin{pmatrix}
+n+1 \\
+k
+\end{pmatrix}+
+(-1)^{n+1}\\
+&=1+0+0=1
+\end{align*}
+\end{proof}
+
+\newpage
+
+\paragraph{(b)}
+$ $\newline
+
+Vermutung: $\forall n\in\mathbb{N}_{\geq1}$ und $m\in\mathbb{N}_{\geq 1}$
+\begin{equation*}
+\sum_{k=1}^{n}\prod_{i=0}^{m-1}(k+i)=\frac{1}{m+1}\prod_{i=0}^{m}(n+i)
+\end{equation*}
+\begin{proof}
+$ $\newline
+
+IA: Sei $n=1$, es gilt
+\begin{equation*}
+\sum_{k=1}^{1}\prod_{i=0}^{m-1}(k+i)=\prod_{i=0}^{m-1}(1+i)=\frac{1}{1+m}\prod_{i=0}^{m}(1+i)
+\end{equation*}
+
+IV: $\forall n\in\mathbb{N}_{\geq1}$ und $m\in\mathbb{N}_{\geq 1}$
+\begin{equation*}
+\sum_{k=1}^{n}\prod_{i=0}^{m-1}(k+i)=\frac{1}{m+1}\prod_{i=0}^{m}(n+i)
+\end{equation*}
+
+IS: Sei $\tilde{n}=n+1$, wir betrachten
+\begin{align*}
+\sum_{k=1}^{\tilde{n}}\prod_{i=0}^{m-1}(k+i)
+&=
+\sum_{k=1}^{n+1}\prod_{i=0}^{m-1}(k+i)\\
+&=
+\sum_{k=1}^{n}\prod_{i=0}^{m-1}(k+i)+
+\prod_{i=0}^{m-1}(n+1+i)\\
+&\overset{\mathbf{IV}}{=}
+\frac{1}{m+1}\prod_{i=0}^{m}(n+i)+
+\prod_{i=0}^{m-1}(n+1+i)\\
+&=
+\frac{1}{m+1}\prod_{i=0}^{m}(n+i)+
+\frac{1}{n}\prod_{i=0}^{m}(n+i)\\
+&=
+\Big(\frac{1}{m+1}+\frac{1}{n}\Big)\prod_{i=0}^{m}(n+i)\\
+&=
+\frac{n+m+1}{n(m+1)}\prod_{i=0}^{m}(n+i)\\
+&=
+\frac{1}{m+1}\frac{n+m+1}{n}\prod_{i=0}^{m}(n+i)\\
+&=
+\frac{1}{m+1}\prod_{i=0}^{m}(n+1+i)
+\end{align*}
+\end{proof}
+
+\newpage
+
+\subsection{Aufgabe 4.7(H)}
+\begin{proof}
+$ $\newline
+
+IA: Sei $n=0$, es gilt
+\begin{equation*}
+\sum_{k=0}^{0}(-1)^k\cdot
+\begin{pmatrix}
+x \\
+k
+\end{pmatrix}
+=
+(-1)^0\cdot
+\begin{pmatrix}
+x \\
+0
+\end{pmatrix}
+=
+1
+=
+(-1)^0\cdot
+\begin{pmatrix}
+x-1 \\
+0
+\end{pmatrix}
+\end{equation*}
+
+IV: $x\in\mathbb{R}$, $n\in\mathbb{N}$
+\begin{equation*}
+\sum_{k=0}^{n}(-1)^k\cdot
+\begin{pmatrix}
+x \\
+k
+\end{pmatrix}
+=
+(-1)^n\cdot
+\begin{pmatrix}
+x-1 \\
+n
+\end{pmatrix}
+\end{equation*}
+
+IS: Sei $\tilde{n}=n+1$, wir betrachten
+\begin{align*}
+\sum_{k=0}^{\tilde{n}}(-1)^k\cdot
+\begin{pmatrix}
+x \\
+k
+\end{pmatrix}
+&=
+\sum_{k=0}^{n+1}(-1)^k\cdot
+\begin{pmatrix}
+x \\
+k
+\end{pmatrix}\\
+&=
+\sum_{k=0}^{n}(-1)^k\cdot
+\begin{pmatrix}
+x \\
+k
+\end{pmatrix}+
+(-1)^{n+1}\cdot
+\begin{pmatrix}
+x \\
+n+1
+\end{pmatrix}\\
+&\overset{\mathbf{IV}}{=}
+(-1)^n\cdot
+\begin{pmatrix}
+x-1 \\
+n
+\end{pmatrix}+
+(-1)^{n+1}\cdot
+\begin{pmatrix}
+x \\
+n+1
+\end{pmatrix}\\
+&=
+-(-1)^{n+1}\cdot
+\begin{pmatrix}
+x-1 \\
+n
+\end{pmatrix}+
+(-1)^{n+1}\cdot
+\begin{pmatrix}
+x \\
+n+1
+\end{pmatrix}\\
+&=
+(-1)^{n+1}\cdot\Bigg(
+\begin{pmatrix}
+x \\
+n+1
+\end{pmatrix}-
+\begin{pmatrix}
+x-1 \\
+n
+\end{pmatrix}
+\Bigg)\\
+&=
+(-1)^{n+1}\cdot\Bigg(
+\begin{pmatrix}
+x-1 \\
+n+1
+\end{pmatrix}+
+\begin{pmatrix}
+x-1 \\
+n
+\end{pmatrix}-
+\begin{pmatrix}
+x-1 \\
+n
+\end{pmatrix}
+\Bigg)\\
+&=
+(-1)^{n+1}\cdot
+\begin{pmatrix}
+x-1 \\
+n+1
+\end{pmatrix}
+\end{align*}
+\end{proof}
+
+\newpage
+
+\subsection{Tutorium}
+
+\textsc{Gauss Klammern} oder \textsc{Floor and Ceiling Function}\\
+
+$\forall x,y\in\mathbb{R}$, $x-y\in\mathbb{Z}$\\
+
+$\Rightarrow$ $x-\lfloor x\rfloor=y-\lfloor y\rfloor$\\
+
+"$\Leftarrow$" $x-y=\lfloor x\rfloor-\lfloor y\rfloor$\\
+
+$\Rightarrow$ $x-y\in\mathbb{Z}$\\
+
+"$\Rightarrow$" $x-y\in\mathbb{Z}$\\
+
+$\Leftrightarrow$ $\exists k\in\mathbb{Z}$: $x-y=k$\\
+
+$\Rightarrow$ $x-\lfloor x\rfloor-(y-\lfloor y\rfloor)=$\\

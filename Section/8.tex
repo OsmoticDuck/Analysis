@@ -1,0 +1,245 @@
+\section{8. Übungsblatt}
+
+\subsection{Aufgabe 8.1}
+
+\begin{proof}
+$ $\newline
+
+\end{proof}
+
+\subsection{Aufgabe 8.2}
+
+c) geo. Reihe mit
+
+\newpage
+
+\subsection{Aufgabe 8.3}
+$ $\newline
+
+Maj. Krit. : Seien $(a_n)_n,(b_n)_n\subseteq\mathbb{R}$, $\forall n\in\mathbb{N}$: $b_n>0$
+
+Falls $\exists N\in\mathbb{N}$, $\exists c\in\mathbb{R}$, $\forall n\in\mathbb{N}_{>N}$: $|a_n|\leq c\cdot b_n$
+
+und falls $\sum_{1}^{\infty}b_n$ konv. dann konv. $\sum_{1}^{\infty}$ abs.
+
+\begin{proof}
+$ $\newline
+
+$(a_n)_n\in\mathbb{R}$ und $\exists\theta\in(0,1)$ und $\exists N\in\mathbb{N}$
+
+sodass: $\forall n\geq N$ gilt $\sqrt[n]{|a_n|}<\theta$
+
+da $\sum_{n=1}^{\infty}\theta^n$ konv. (geom. Reihe) $\Leftrightarrow$ $|a_n|<\theta^n$
+
+nach Maj. Krit. konv. $\sum a_n$ abs.
+\end{proof}
+
+\newpage
+
+\subsection{Aufgabe 8.4}
+
+\paragraph{(a)}
+$ $\newline
+
+$a_n=\frac{n!}{n^n}$
+
+Quotient-Krit.
+
+\begin{align*}
+\Big|\frac{a_{n+1}}{a_n}\Big|
+&=\Big|\frac{(n+1)!}{(n+1)^{n+1}}\Big|\\
+&=\Big|\frac{n^n}{(n+1)^n}\Big|\\
+()^{-1}&=\underset{(n\rightarrow0)\rightarrow e}{\underbrace{\Bigg(\Big(\frac{n+1}{n}\Big)^n\Bigg)^{-1}}}
+\end{align*}
+
+$e^x:=\lim_{n\rightarrow\infty}(1+\frac{x}{n})^n$
+
+$\Rightarrow$ $|\frac{a_{n+1}}{a_n}|=((1+\frac{1}{n})^n)^{-1}\overset{n\rightarrow\infty}{\longrightarrow}e^{-1}$\\
+
+Sei nun $\tilde{\epsilon}=1-e^{-1}$ dann: $\underset{\theta}{\underbrace{e^{-1}+\frac{\tilde{\epsilon}}{2}}}<1$
+
+$e^{-1}+\frac{\tilde{\epsilon}}{2}=e^{-1}+\frac{1-e^{-1}}{2}=\frac{1+e^{-1}}{2}<1$
+
+dann $\lim_{n\rightarrow\infty}|\frac{a_{n+1}}{a_n}|=e^{-1}$ for $\epsilon_i=\frac{\tilde{\epsilon}}{2}$ $\exists N\in\mathbb{N}$ sind
+
+$\forall n\in\mathbb{N}_{>N}$: $|\frac{a_{n+1}}{a_n}-e^{-1}|<\frac{\tilde{\epsilon}}{2}$
+
+$\Rightarrow$ $\frac{a_{n+1}}{a_n}<e^{-1}+\frac{\tilde{\epsilon}}{2}$
+
+\paragraph{(b)}
+$ $\newline
+
+$a_n=(\sqrt[n]{n}-1)^n$
+
+dann $\sqrt[n]{|a_n|}=\sqrt[n]{(\sqrt[n]{n}-1)^n}=\sqrt[n]{n}-1\overset{n\rightarrow\infty}{\longrightarrow}0$
+
+z.B. Sei $\theta_i=\frac{1}{2}=\epsilon$ $\exists N\in\mathbb{N}$
+
+$\forall n\in\mathbb{N}_{>N}$: $|\sqrt[n]{n}-1-0|<\epsilon=\frac{1}{2}$ $\Rightarrow$ $\sqrt[n]{n}-1<\frac{1}{2}$
+
+\paragraph{(c)}
+$ $\newline
+
+$a_n=(-1)^n\frac{n+1}{n}$
+
+$a_n$ kein Nullfolge
+
+nicht konv.
+
+\paragraph{(d)}
+$ $\newline
+
+$a_N=\frac{n+4}{n^3-3n+1}$
+
+mit Harmonische Reihe ($n>1$ konv.)
+
+\begin{align*}
+&=\frac{n}{n^3-3n+1}+\frac{4}{n^3-3n+1}\\
+&\leq\frac{n}{n^3-3n}+\frac{4}{n^3-3n}\\
+&=\frac{1}{n^2-3}+\frac{4}{n^3-3n}\\
+&\leq\frac{1}{(n-3)^2}+\frac{1}{(n-4)^3}\hspace{1em}for\hspace{1em}n>20
+\end{align*}
+
+\newpage
+
+\paragraph{(e)}
+\begin{align*}
+a_n
+&=\ldots\\
+&=\frac{2\sqrt{n}}{n-1}\\
+&\geq\frac{2\sqrt{n}}{n}=\frac{2}{\sqrt{n}}\ div.
+\end{align*}
+
+\paragraph{(f)}
+$ $\newline
+
+\newpage
+
+\subsection{Aufgabe 8.5(H)}
+
+\paragraph{(a)}
+$ $\newline
+
+For
+\begin{equation*}
+\sum_{n=1}^{\infty}a_n=\sum_{n=1}^{\infty}\frac{n^2}{2^n}
+\end{equation*}
+
+We determine with ratio test:
+\begin{align*}
+\frac{a_{n+1}}{a_n}
+&=\frac{(n+1)^2}{2^{n+1}}\frac{2^n}{n^2}\\
+&=\frac{n^2+2n+1}{2n^2}\\
+&=\frac{1}{2}+\frac{1}{n}+\frac{1}{2n^2}\\
+&\mbox{for }n\rightarrow\infty\mbox{ we have}\\
+\lim_{n\rightarrow\infty}\Bigg|\frac{a_{n+1}}{a_n}\Bigg|&=\frac{1}{2}<1\\
+&\Rightarrow\mbox{this series is convergent}
+\end{align*}
+
+\paragraph{(b)}
+$ $\newline
+
+For
+\begin{equation*}
+\sum_{n=1}^{\infty}a_n=\sum_{n=1}^{\infty}\Big(1+\frac{1}{n^2}\Big)^n
+\end{equation*}
+
+We determine with ratio test:
+\begin{align*}
+\frac{a_{n+1}}{a_n}
+&=\frac{(1+\frac{1}{(n+1)^2})^{n+1}}{(1+\frac{1}{n^2})^n}\\
+&=\frac{\Big((1+\frac{1}{(n+1)^2})^{(n+1)^2}\Big)^{\frac{1}{n+1}}}{\Big((1+\frac{1}{n^2})^{n^2}\Big)^\frac{1}{n}}\\
+(\mbox{substitute }\tilde{n}=n^2,\tilde{n}'=(n+1)^2)&=
+\frac{\Big((1+\frac{1}{\tilde{n}'})^{\tilde{n}'}\Big)^{\frac{1}{n+1}}}{\Big((1+\frac{1}{\tilde{n}})^{\tilde{n}}\Big)^\frac{1}{n}}
+\end{align*}
+
+with $n\rightarrow\infty$, we have
+\begin{equation*}
+\lim_{n\rightarrow\infty}\tilde{n}=\lim_{n\rightarrow\infty}\tilde{n}'=\lim_{n\rightarrow\infty}n=\infty,\hspace{1em}\lim_{n\rightarrow\infty}\frac{1}{n+1}=\lim_{n\rightarrow\infty}\frac{1}{n}=0
+\end{equation*}
+
+therefore
+\begin{equation*}
+\lim_{n\rightarrow\infty}\Bigg|\frac{a_{n+1}}{a_n}\Bigg|
+\lim_{n\rightarrow\infty}\Bigg|\frac{\Big((1+\frac{1}{\tilde{n}'})^{\tilde{n}'}\Big)^{\frac{1}{n+1}}}{\Big((1+\frac{1}{\tilde{n}})^{\tilde{n}}\Big)^\frac{1}{n}}\Bigg|=\lim_{n\rightarrow\infty}\Bigg|\frac{e^{\frac{1}{n+1}}}{e^\frac{1}{n}}\Bigg|=1
+\end{equation*}
+
+with $(1+\frac{1}{n^2})^n>1$, the series is divergent
+
+\newpage
+
+\paragraph{(c)}
+$ $\newline
+
+For
+\begin{equation*}
+\sum_{n=1}^{\infty}a_n=\sum_{n=1}^{\infty}\frac{1}{7^n}
+\begin{pmatrix}
+3n \\
+n
+\end{pmatrix}
+\end{equation*}
+
+We determine with ratio test
+\begin{align*}
+\Bigg|\frac{a_{n+1}}{a_n}\Bigg|
+&=\frac{\frac{(3(n+1))!}{7^{n+1}(2(n+1))!(n+1)!}}{\frac{3n!}{7^n(2n)!n!}}\\
+&=\frac{(3n+3)!(2n)!n!}{7(2n+2)!(n+1)!3n!}\\
+&=\frac{\Big(\prod_{k=1}^{3n+3}k\Big)\Big(\prod_{k=1}^{2n}k\Big)\Big(\prod_{k=1}^{n}k\Big)}{7\Big(\prod_{k=1}^{2n+2}k\Big)\Big(\prod_{k=1}^{n+1}k\Big)\Big(\prod_{k=1}^{3n}k\Big)}\\
+&=\frac{(3n+1)(3n+2)(3n+3)}{7(2n+1)(2n+2)(n+1)}\\
+&\Rightarrow\lim_{n\rightarrow\infty}\frac{(3n+1)(3n+2)(3n+3)}{7(2n+1)(2n+2)(n+1)}=\frac{27}{28}<1\\
+&\Rightarrow\mbox{this series is convergent}
+\end{align*}
+
+\paragraph{(d)}
+$ $\newline
+
+For
+\begin{equation*}
+\sum_{n=1}^{\infty}(-1)^na_n=\sum_{n=1}^{\infty}(-1)^n\frac{1}{\sqrt{n}}
+\end{equation*}
+
+We determine with Leibniz criterion:
+
+\begin{align*}
+|a_{n+1}|=\Bigg|\frac{1}{\sqrt{n+1}}\Bigg|&<\Bigg|\frac{1}{\sqrt{n}}\Bigg|=|a_n|\\
+\Rightarrow&a_n\mbox{ monotonically decreases}
+\end{align*}
+\begin{align*}
+\lim_{n\rightarrow\infty}a_n=0
+\end{align*}
+
+$\Rightarrow$ this series is convergent
+
+\newpage
+
+\subsection{Aufgabe 8.6(H)}
+
+\begin{proof}
+$ $\newline
+
+Sei $b_n$ beschränkt, dann $\exists N\in\mathbb{N}$, $\forall n\in\mathbb{N}$ $|b_n|\leq |b_N|$\\
+
+Sei $\lim_{n\rightarrow\infty}a_n=0$, dann $\forall\varepsilon\in\mathbb{R}$ $\exists N'\in\mathbb{N}$, $\forall n\in\mathbb{N}_{>N'}$ $a_n<\varepsilon$\\
+
+dann $\forall b_N\in\mathbb{R}$, $\lim_{n\rightarrow\infty}a_n\cdot b_N=0$\\
+
+dann mit Majorantenkriterium $a_n\cdot b_n\rightarrow0$
+
+\end{proof}
+
+\newpage
+
+\subsection{Tutorium}
+
+\begin{definition}[Cauchy-Folge]
+$(a_n)_{n\in\mathbb{N}}$ ist CF, wenn
+
+$\forall\epsilon>0$ $\exists N\in\mathbb{N}$, sodass $\forall m,n\in\mathbb{N}_{>N}$: $|a_n-a_m|<\epsilon$
+\end{definition}
+
+\begin{definition}[Reihe]
+$\sum_{n=1}^{\infty}=(b_n)_{n\in\mathbb{N}}$, [$\forall n\in\mathbb{N}$: $b_n=\sum_{k=1}^n a_k$]
+
+(see: partial summation convergent)
+\end{definition}

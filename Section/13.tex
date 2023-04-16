@@ -1,0 +1,154 @@
+\section{13. Übungsblatt}
+
+\subsection{13.1}
+
+Zeigen, dass $\log_a$ und $\exp_a$ umgekehrt sind
+
+wir haben
+
+\begin{equation*}
+\log_a x=\frac{\log x}{\log a}
+\end{equation*}
+
+\begin{align*}
+\forall x\in\mathbb{R}:\log_a(\exp_a(x))&=\log_a(a^x)\\
+&=\frac{\log(\exp(x\log a))}{\log a}\\
+&=\frac{x\log a}{\log a}\\
+&=x
+\end{align*}
+umgekehrt nach $y$ auch gültig
+
+\subsection{13.2}
+
+\subsection{13.3}
+
+\begin{equation*}
+\lim_{x\rightarrow0}\frac{e^x-1}{x}=1,\lim_{x\rightarrow0}(1+x)^{\frac{1}{x}}=e
+\end{equation*}
+
+\paragraph{(a)}
+
+\begin{equation*}
+\lim_{x\downarrow0}x^x=\lim_{x\downarrow0}\exp(\log(x^x))=\exp(\lim_{x\downarrow0}x\log(x))=e^0=1
+\end{equation*}
+
+\paragraph{(b)}
+
+Umschreiben $\sqrt[n]{n}=n^\frac{1}{n}$
+
+\paragraph{(c)}
+
+Umschreiben $\frac{\log(1+x)}{x}=\log((1+x)^\frac{1}{x})$, dann offenbar $\lim=1$
+
+\paragraph{(d)}
+
+Umschreiben
+\begin{equation*}
+\frac{3x+5-2(x+3)}{(x+3)(3x+5)}=\frac{x-1}{(x+3)(3x+5)}
+\end{equation*}
+dann
+\begin{equation*}
+\frac{1}{(x+3)(3x+5)}
+\end{equation*}
+
+\paragraph{(e)}
+
+\begin{equation*}
+1-\sqrt{f(x)}=\frac{1-f(x)}{1+\sqrt{f(x)}}
+\end{equation*}
+
+$\frac{1}{2}$
+
+\paragraph{(f)}
+
+\begin{align*}
+x\sqrt{1+\frac{1}{x^2}}&\overset{x>0}{=}\sqrt{x^2+1}\rightarrow1\\
+&\overset{<0}{=}-\sqrt{x^2+1}...\rightarrow -1
+\end{align*}
+
+\newpage
+
+\subsection{13.4}
+
+$f(xy)=f(x)f(y)$\\
+
+Frage:
+
+$f(0)=?$
+
+$f(n\in\mathbb{N})=?$
+
+$f(z\in\mathbb{Z})=?$
+
+$f(x\in\mathbb{Q})=?$
+
+$f(x\in\mathbb{R})=?$\\
+
+$1.$
+
+$f(0)=f(0)+f(0)$ $\Rightarrow$ $f(0)=0$\\
+
+$2.$
+
+$f(n\in\mathbb{N})=1\cdot n$, $f(x)=ax\Rightarrow a=f(1)$\\
+
+dann
+
+$f(0)=0$
+
+$f(n\in\mathbb{N})=nf(1)$ $\Leftarrow$ Induktion
+
+$f(z\in\mathbb{Z})=zf(1)$ $\Leftarrow$ $\oplus$ $f(0)=f(n)+f(-n)$ $\Rightarrow$ $f(-n)=-f(n)=-nf(1)$
+
+$f(x\in\mathbb{Q})=xf(1)$ $\Leftarrow$ $\exists m\in\mathbb{Z},n\in\mathbb{N}$ sodass $x=\frac{m}{n}$, dann
+\begin{align*}
+z.z.\ f(\frac{m}{n}&=\frac{m}{n}f(1))\\
+f(m)=nf(\frac{m}{n})=nf(\frac{m}{n})&=mf(1)=f(m)
+\end{align*}
+
+$f(x\in\mathbb{R})=xf(1)$ $\Leftarrow$ (tut) $\exists(x_n)\in\mathbb{Q}$ sodass $\lim_{n\rightarrow\infty}x_n=x\in\mathbb{R}$\\
+
+$Folgerung:$\\
+
+1. $f(0)=0$ $\Rightarrow$ $f(-x)=-f(x)$ $\forall x\in\mathbb{R}$\\
+
+2. $\forall x\in\mathbb{R},n\in\mathbb{N}$, $f(nx)=nf(x)$
+
+$n=1$, $f(1x)=1f(x)=f(x)$ gültig
+
+... $\Rightarrow$ Induktion\\
+
+3. $\forall x\in\mathbb{R},z\in\mathbb{Z}$:
+
+i) $z\in\mathbb{N}$ (nach 2. klar)
+
+ii) $z<0$: $-z\in\mathbb{N}$ $\Rightarrow$
+\begin{align*}
+f(z)&=f((-1)(-z))=(-z)f(-1)\\
+(1.)&=(-z)(-f(1))=zf(1)
+\end{align*}
+
+4. $\forall x\in\mathbb{Q}$ $\exists m\in\mathbb{Z},n\in\mathbb{N}$, $x=\frac{m}{n}$
+\begin{align*}
+f(1)=f(m)&=f(n\frac{m}{n})\\
+&=nf(\frac{m}{n})\\
+f(\frac{m}{n})&=\frac{m}{n}f(1)
+\end{align*}
+
+5. $\forall x\in\mathbb{R}$ da $\mathbb{Q}$ in $\mathbb{R}$ dicht ist,
+
+$\exists x_n\subseteq\mathbb{Q}$ sodass $\lim_{n\rightarrow\infty}x_n=x$,
+
+$f(x)=f(\lim_{n\rightarrow\infty}x_n)=\lim_{n\rightarrow\infty}f(x_n)$, $\lim_{n\rightarrow\infty}x_nf(1)=xf(1)$\\
+
+$f(x)=cx$ mit $c\in\mathbb{R}$
+
+\newpage
+
+\subsection{tut}
+
+\begin{definition}[Stetigkeit]
+$\lim_{x\rightarrow a}f(x)=f(a)$ heißt:\\
+
+$\forall(a_n)\subseteq D$, $f(a_n)$ konvegiert gegen $f(a)$
+\end{definition}

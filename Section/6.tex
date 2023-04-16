@@ -1,0 +1,60 @@
+\section{6. Übungsblatt:}
+
+\subsection{Aufgabe 6.1}
+
+\subsection{Aufgabe 6.2}
+
+\subsection{Aufgabe 6.3}
+
+\subsection{Aufgabe 6.4}
+
+\newpage
+
+\subsection{Aufgabe 6.5(H)}
+
+\paragraph{(a)}
+\begin{align*}
+\frac{2n+1}{3n}+\frac{3n}{2n-1}
+&=\frac{2}{3}+\frac{1}{3n}+\frac{3n}{2n-1}\\
+&=\frac{2}{3}+\frac{1}{3n}+\frac{3n}{n(2-\frac{1}{n})}\\
+&=\frac{2}{3}+\frac{1}{3n}+\frac{3}{2-\frac{1}{n}}\\
+\mbox{offenbar}\lim_{n\rightarrow\infty}\Bigg(\frac{2}{3}+\frac{1}{3n}+\frac{3}{2-\frac{1}{n}}\Bigg)&=\frac{2}{3}+\frac{3}{2}=\frac{13}{6}
+\end{align*}
+
+\paragraph{(b)}
+\begin{align*}
+\begin{pmatrix}
+2n \\
+n
+\end{pmatrix}
+&=\frac{(2n)!}{n!n!}\\
+&=\frac{\prod_{k=1}^{2n}k}{\prod_{k=1}^{n}k\cdot\prod_{k=1}^{n}k}\\
+&=\frac{\prod_{k=n+1}^{2n}k}{\prod_{k=1}^{n}k}
+\end{align*}
+\begin{align*}
+\frac{a_{n+1}}{n}=\frac{\prod_{k=n+2}^{2n+2}k}{\prod_{k=1}^{n+1}k}\frac{\prod_{k=1}^{n}k}{\prod_{k=n+1}^{2n}k}
+&=\frac{(2n+1)(2n+2)}{(n+1)^2}\\
+&=\frac{4n^2+5n+2}{n^2+2n+1}\\
+&=\frac{4+\frac{5}{n}+\frac{2}{n^2}}{1+\frac{2}{n}+\frac{1}{n^2}}\\
+\mbox{offenbar}\lim_{n\rightarrow\infty}\Bigg|\frac{4+\frac{5}{n}+\frac{2}{n^2}}{1+\frac{2}{n}+\frac{1}{n^2}}\Bigg|&=4>0\\
+&\Rightarrow
+\begin{pmatrix}
+2n \\
+n
+\end{pmatrix}\mbox{divergent}
+\end{align*}
+
+\subsection{Aufgabe 6.6(H)}
+
+\paragraph{(a)}
+$ $\newline
+Sei $a_n=0$, dann $\lim_{n\rightarrow\infty}a_n=0$ mit $\frac{a_n}{b_n}=0$, dann $\lim_{n\rightarrow\infty}(\frac{a_n}{b_n})_{n\in\mathbb{N}}=0$ für beliebige $b_n$ inkl. Nullfolge. $\lightning$
+
+\paragraph{(b)}
+\begin{proof}
+Sei $\lim_{n\rightarrow\infty}b_n=0$, dann $\lim_{n\rightarrow\infty}\frac{1}{b_n}=\infty$ folgt $\frac{1}{b_n}$ divergent.
+\end{proof}
+
+\paragraph{(c)}
+$ $\newline
+Sei $a_n=0$, dann $\lim_{n\rightarrow\infty}a_n=0$ mit $(a_n\cdot b_n)=0$ , dann $\lim_{n\rightarrow\infty}(a_n\cdot b_n)=0$ für beliebige $b_n$ inkl. divg. Folge. $\lightning$
