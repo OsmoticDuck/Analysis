@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.14)  16 APR 2023 21:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.14)  17 APR 2023 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"./Analysis HA.tex"
-(Analysis HA.tex
+**./Analysis.tex
+(Analysis.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30>
 (/home/gaozehao/.miktex/texmfs/install/tex/latex/base/article.cls
@@ -746,7 +746,7 @@ Package polyglossia Info: Default language is german.
 \c@corollary=\count332
 \c@definition=\count333
 \c@exmp=\count334
-) (Analysis HA.aux
+) (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
@@ -758,7 +758,7 @@ nput line 18.
 
 \l@ngerman = a dialect from \language\l@nohyphenation 
 )
-\openout1 = `"Analysis HA.aux"'.
+\openout1 = `Analysis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -970,9 +970,9 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 17.
-(Analysis HA.out) (Analysis HA.out)
+(Analysis.out) (Analysis.out)
 \@outlinefile=\write3
-\openout3 = `"Analysis HA.out"'.
+\openout3 = `Analysis.out'.
 
 LaTeX Info: Redefining \rmfamily on input line 17.
 LaTeX Info: Redefining \sffamily on input line 17.
@@ -998,7 +998,7 @@ LaTeX Font Info:    Trying to load font information for U+stmry on input line 4
 (/home/gaozehao/.miktex/texmfs/install/tex/latex/stmaryrd/Ustmry.fd) [1
 
 ])
-(Analysis HA.toc
+(Analysis.toc
 LaTeX Info: Redefining \rmfamily on input line 1.
 LaTeX Info: Redefining \sffamily on input line 1.
 LaTeX Info: Redefining \ttfamily on input line 1.
@@ -1007,7 +1007,7 @@ Missing character: There is no ä in font cmmi10!
 Missing character: There is no ä in font cmmi10!
 [1] [2])
 \tf@toc=\write4
-\openout4 = `"Analysis HA.toc"'.
+\openout4 = `Analysis.toc'.
 
  [3] (Section/1.tex
 
@@ -2142,21 +2142,21 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
- (Analysis HA.aux
+ (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
 )
-Package rerunfilecheck Info: File `"Analysis HA".out' has not changed.
-(rerunfilecheck)             Checksum: <no file>.
+Package rerunfilecheck Info: File `Analysis.out' has not changed.
+(rerunfilecheck)             Checksum: F9A2054BDFD8E00A9898FE0202182DAE;13844.
  ) 
 Here is how much of TeX's memory you used:
- 19718 strings out of 413434
- 365415 string characters out of 5850913
+ 19715 strings out of 413434
+ 365262 string characters out of 5850913
  1867296 words of memory out of 5000000
- 39507 multiletter control sequences out of 15000+600000
+ 39504 multiletter control sequences out of 15000+600000
  521302 words of font info for 91 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 93i,28n,93p,449b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,28n,93p,444b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Analysis HA.pdf (94 pages).
+Output written on Analysis.pdf (94 pages).
