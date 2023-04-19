@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.14)  17 APR 2023 20:37
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.14)  19 APR 2023 16:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -676,6 +676,302 @@ Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/frontendlayer/tikz.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgf.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-common
+.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.
+def
+\pgfutil@abb=\box68
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.te
+x (/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.
+tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.t
+ex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibrary
+filtered.code.tex
+\pgfkeys@tmptoks=\toks39
+))
+\pgf@x=\dimen182
+\pgf@y=\dimen183
+\pgf@xa=\dimen184
+\pgf@ya=\dimen185
+\pgf@xb=\dimen186
+\pgf@yb=\dimen187
+\pgf@xc=\dimen188
+\pgf@yc=\dimen189
+\pgf@xd=\dimen190
+\pgf@yd=\dimen191
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count331
+\c@pgf@countb=\count332
+\c@pgf@countc=\count333
+\c@pgf@countd=\count334
+\t@pgf@toka=\toks40
+\t@pgf@tokb=\toks41
+\t@pgf@tokc=\toks42
+\pgf@sys@id@count=\count335
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-xetex
+.def
+File: pgfsys-xetex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-dvipd
+fmx.def
+File: pgfsys-dvipdfmx.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-commo
+n-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)
+\pgfsys@objnum=\count336
+)))
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpa
+th.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count337
+\pgfsyssoftpath@bigbuffer@items=\count338
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotoc
+ol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.
+tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.te
+x)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.
+tex
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count339
+\pgfmath@box=\box69
+\pgfmath@toks=\toks43
+\pgfmath@stack@operand=\toks44
+\pgfmath@stack@operation=\toks45
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.co
+de.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ba
+sic.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.tr
+igonometric.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ra
+ndom.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.co
+mparison.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ba
+se.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.ro
+und.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.mi
+sc.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.in
+tegerarithmetics.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.te
+x)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.t
+ex
+\c@pgfmathroundto@lastzeros=\count340
+))
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfint.code.tex)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints
+.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathco
+nstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathus
+age.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes
+.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box70
+\pgf@hbox=\box71
+\pgf@layerbox@main=\box72
+\pgf@picture@serial@count=\count341
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphi
+cstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen267
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransf
+ormations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.
+code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobject
+s.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathpr
+ocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows
+.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen271
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.
+code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count342
+\pgf@shadingcount=\count343
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.
+code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreextern
+al.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box73
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers
+.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransp
+arency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatter
+ns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.co
+de.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleshapes.
+code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box74
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmoduleplot.co
+de.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-vers
+ion-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
+)
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/compatibility/pgfcomp-vers
+ion-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/utilities/pgffor.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.t
+ex)) (/home/gaozehao/.miktex/texmfs/install/tex/latex/pgf/math/pgfmath.sty
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex))
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/utilities/pgffor.code.te
+x
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
+\pgffor@stack=\toks46
+\pgffor@toks=\toks47
+))
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/tikz.
+code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/libraries/pgflibraryplot
+handlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count344
+\pgfplotmarksize=\dimen277
+)
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikz@lastmovetox=\dimen282
+\tikz@lastmovetoy=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box75
+\tikz@figbox@bg=\box76
+\tikz@tempbox=\box77
+\tikz@tempbox@bg=\box78
+\tikztreelevel=\count345
+\tikznumberofchildren=\count346
+\tikznumberofcurrentchild=\count347
+\tikz@fig@count=\count348
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/modules/pgfmodulematrix.
+code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count349
+\pgfmatrixcurrentcolumn=\count350
+\pgf@matrix@numberofcolumns=\count351
+)
+\tikz@expandcount=\count352
+
+(/home/gaozehao/.miktex/texmfs/install/tex/generic/pgf/frontendlayer/tikz/libra
+ries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
 (/home/gaozehao/.miktex/texmfs/install/tex/latex/stmaryrd/stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
@@ -742,10 +1038,10 @@ Package babel Info: Making " an active character on input line 179.
 Package polyglossia Info: Default language is german.
 
 (conf/newtheorem.tex
-\c@theorem=\count331
-\c@corollary=\count332
-\c@definition=\count333
-\c@exmp=\count334
+\c@theorem=\count353
+\c@corollary=\count354
+\c@definition=\count355
+\c@exmp=\count356
 ) (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
@@ -971,8 +1267,8 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 
 Package hyperref Info: Link coloring OFF on input line 17.
 (Analysis.out) (Analysis.out)
-\@outlinefile=\write3
-\openout3 = `Analysis.out'.
+\@outlinefile=\write4
+\openout4 = `Analysis.out'.
 
 LaTeX Info: Redefining \rmfamily on input line 17.
 LaTeX Info: Redefining \sffamily on input line 17.
@@ -1006,8 +1302,8 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 Missing character: There is no ä in font cmmi10!
 Missing character: There is no ä in font cmmi10!
 [1] [2])
-\tf@toc=\write4
-\openout4 = `Analysis.toc'.
+\tf@toc=\write5
+\openout5 = `Analysis.toc'.
 
  [3] (Section/1.tex
 
@@ -2000,27 +2296,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[92]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+[92] [93]
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+[94]
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
+
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-) [93] (Section/18.tex)
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+) [97] (Section/18.tex [98] [99] [100]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+)
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2142,21 +2463,21 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
- (Analysis.aux
+ [101] (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
 )
 Package rerunfilecheck Info: File `Analysis.out' has not changed.
-(rerunfilecheck)             Checksum: F9A2054BDFD8E00A9898FE0202182DAE;13844.
+(rerunfilecheck)             Checksum: D1F217DFB0A7EF8FF21D55BE5CEA7E3D;15148.
  ) 
 Here is how much of TeX's memory you used:
- 19715 strings out of 413434
- 365262 string characters out of 5850913
- 1867296 words of memory out of 5000000
- 39504 multiletter control sequences out of 15000+600000
+ 29738 strings out of 413434
+ 582633 string characters out of 5850913
+ 1869296 words of memory out of 5000000
+ 49336 multiletter control sequences out of 15000+600000
  521302 words of font info for 91 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
- 93i,28n,93p,444b,474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,28n,93p,444b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Analysis.pdf (94 pages).
+Output written on Analysis.pdf (102 pages).
