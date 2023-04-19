@@ -1,0 +1,111 @@
+\section{7. Übungsblatt}
+
+\subsection{Aufgabe 7.1}
+
+\subsection{Aufgabe 7.2}
+
+\subsection{Aufgabe 7.3}
+
+\subsection{Aufgabe 7.4}
+
+\subsection{Aufgabe 7.5}
+
+\newpage
+
+\subsection{Aufgabe 7.6(H)}
+
+Wir beweisen zuerst die folgende Gleichung
+\begin{equation*}
+\underset{\geq\sqrt{a}}{\underbrace{(\sqrt{a_n}+\sqrt{a})}}\cdot|\sqrt{a_n}-\sqrt{a}|=|a_n-a|
+\end{equation*}
+\begin{proof}
+\begin{equation*}
+(\sqrt{a_n}+\sqrt{a})\cdot|\sqrt{a_n}-\sqrt{a}|=\left\{\begin{array}{lcl}
+(\sqrt{a_n}>\sqrt{a}) & (\sqrt{a_n}+\sqrt{a})\cdot(\sqrt{a_n}-\sqrt{a})=(a_n-a)=|a_n-a|\\
+(\sqrt{a_n}<\sqrt{a}) & (\sqrt{a_n}+\sqrt{a})\cdot(\sqrt{a}-\sqrt{a_n})=-(a_n-a)=|a_n-a|
+\end{array}\right.
+\end{equation*}
+
+$a_n\geq0$ $\Leftrightarrow$ $\sqrt{a_n}\geq0$
+
+$\sqrt{a_n}\geq0$ $\Leftrightarrow$ $\sqrt{a_n}+\sqrt{a}\geq\sqrt{a}$
+
+\end{proof}
+
+Sei $\lim_{n\rightarrow\infty}a_n=a$
+
+$\Leftrightarrow$ $\forall\varepsilon\in\mathbb{R}_{>0}$, $\exists N\in\mathbb{N}$, $\forall n\in\mathbb{N}_{>N}$, $|a_n-a|<\varepsilon$\\
+
+dann
+
+\begin{align*}
+(\sqrt{a_n}+\sqrt{a})\cdot|\sqrt{a_n}-\sqrt{a}|&=|a_n-a|\\
+|\sqrt{a_n}-\sqrt{a}|&=\frac{|a_n-a|}{(\sqrt{a_n}+\sqrt{a})}<\frac{\varepsilon}{\sqrt{a}}
+\end{align*}
+
+Sei $\tilde{\varepsilon}=\frac{\varepsilon}{\sqrt{a}}\in\mathbb{R}_{>0}$, dann $|\sqrt{a_n}-\sqrt{a}|<\tilde{\varepsilon}$
+
+$\Leftrightarrow$ $\lim_{n\rightarrow\infty}\sqrt{a_n}=\sqrt{a}$
+
+\newpage
+
+\subsection{Aufgabe 7.7(H)}
+$ $\newline
+
+Wir beweisen nun mittels Vollständige Induktion, dass $a_n$ monoton wachsend ist.
+\begin{proof}
+$ $\newline
+
+Sei $a_{n+1}=\sqrt{c+a_n}$\\
+
+IA:
+
+Sei $n=1$, dann gilt
+\begin{align*}
+\frac{a_2}{a_1}&=\frac{\sqrt{c+\sqrt{c}}}{\sqrt{c}}\\
+\frac{a_2^2}{a_1^2}&=\frac{c+\sqrt{c}}{c}\overset{(c>0)}{>}1\\
+\overset{(c>0)}{\Leftrightarrow}\frac{a_2}{a_1}&>1
+\end{align*}\\
+
+IV:
+
+\begin{equation*}
+\frac{a_{n+1}}{a_n}>1\hspace{1em}\Leftrightarrow\hspace{1em}\frac{\sqrt{c+a_n}}{a_n}>1
+\end{equation*}\\
+
+IS:
+
+Wir setzen $\tilde{n}=n+1$ ein,
+\begin{align*}
+\frac{a_{\tilde{n}+1}}{a_{\tilde{n}}}=\frac{a_{(n+1)+1}}{a_{n+1}}
+&=\frac{\sqrt{c+a_{n+1}}}{\sqrt{c+a_n}}\\
+\frac{(a_{(n+1)+1})^2}{a_{n+1}^2}
+&=\frac{c+\sqrt{c+a_n}}{c+a_n}\overunderset{\mathbf{IV}}{(c>0)}{>}1\\
+\overset{(c>0)}{\Leftrightarrow}\frac{a_{\tilde{n}+1}}{a_{\tilde{n}}}&>1
+\end{align*}
+\end{proof}
+
+\newpage
+
+Wir beweisen nun, dass $a_n$ von oben beschränkt ist.
+\begin{proof}
+\begin{align*}
+a_{n+1}&=\sqrt{c+a_n}\\
+a_n&=\sqrt{c+a_{n-1}}\\
+\Rightarrow\lim_{n\rightarrow\infty}a_n&=\sqrt{\lim_{n\rightarrow\infty}(c+a_{n-1})}\\
+&=\sqrt{c+\lim_{n\rightarrow\infty}a_{n-1}}
+\end{align*}
+
+Sei $\lim_{n\rightarrow\infty}a_n=a=\lim_{n\rightarrow\infty}a_{n-1}$, dann
+\begin{align*}
+a&=\sqrt{c+a}\\
+a^2&=c+a\\
+a^2-a-c&=0\\
+\Leftrightarrow a&=\left\{\begin{array}{lcl}
+\frac{1+\sqrt{1+4c}}{2}\overset{(c>0)}{>}1 \\
+\frac{1-\sqrt{1+4c}}{2}\overset{(c>0)}{<}0
+\end{array}\right.
+\end{align*}
+Wir haben schon gezeigt, dass $a_n>0$ monoton wachsend ist, dann  muss $a>0$ sein. Deshalb haben wir $a=\frac{1+\sqrt{1+4c}}{2}$. Dann ist $\lim_{n\rightarrow\infty}a_n=a=\frac{1+\sqrt{1+4c}}{2}$
+
+\end{proof}

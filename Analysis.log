@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.14)  19 APR 2023 16:21
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 23.1) (preloaded format=xelatex 2023.4.14)  19 APR 2023 23:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1301,11 +1301,11 @@ LaTeX Info: Redefining \ttfamily on input line 1.
 
 Missing character: There is no ä in font cmmi10!
 Missing character: There is no ä in font cmmi10!
-[1] [2])
+[1] [2] [3] [4])
 \tf@toc=\write5
 \openout5 = `Analysis.toc'.
 
- [3] (Section/1.tex
+ [5] (Section/1.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
@@ -1324,7 +1324,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
-[4]
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -1334,7 +1334,7 @@ Overfull \hbox (5.26407pt too wide) in paragraph at lines 81--103
  [] 
  []
 
-[5] [6] [7]
+[7] [8] [9]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
@@ -1354,7 +1354,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-[8]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
@@ -1374,17 +1374,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
-[9] [10]
+[11]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 313.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 313.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 313.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\psi' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 320.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 327.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\varphi' on input line 327.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 327.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 327.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\psi' on input line 327.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 327.
+
+[12]
 Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-[11]
+[13]
 Underfull \hbox (badness 10000) in paragraph at lines 379--381
 
  []
 
-) [12] (Section/2.tex
+) [14] (Section/2.tex
 Missing character: There is no ä in font cmmi12!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1402,7 +1463,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[13]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
@@ -1412,7 +1473,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[14]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -1422,12 +1483,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[15]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-[16]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 162--167
 
  []
@@ -1437,17 +1498,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 169--176
 
  []
 
-[17] [18] [19]
+[19] [20] [21]
 Underfull \hbox (badness 10000) in paragraph at lines 272--273
 
  []
 
-[20]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
 
-[21]) [22] (Section/3.tex
+[23]) [24] (Section/3.tex
 Missing character: There is no ä in font cmmi12!
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1473,7 +1534,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 1.
 
-[23]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
@@ -1493,7 +1554,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
-[24]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
@@ -1513,7 +1574,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-[25]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
@@ -1523,7 +1584,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
 
-[26]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -1538,7 +1599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[27]
+[29]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
@@ -1558,7 +1619,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--217
 
  []
 
-[28]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
@@ -1575,7 +1636,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--245
 
 File: ./pics/3.6b.jpg Graphic file (type bmp)
 <./pics/3.6b.jpg>
-[29]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
@@ -1590,7 +1651,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
-[30]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
@@ -1610,12 +1671,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
-[31])
+[33])
 Underfull \hbox (badness 10000) in paragraph at lines 363--36
 
  []
 
-[32] (Section/4.tex
+[34] (Section/4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
@@ -1630,12 +1691,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-[33]
+[35]
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
 
-[34]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 259--260
 
  []
@@ -1705,7 +1766,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[35] [36]
+[37] [38]
 Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
@@ -1735,12 +1796,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
-[37]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
-[38]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
@@ -1750,12 +1811,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 523--524
 
  []
 
-[39]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 564--565
 
  []
 
-[40]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 689--690
 
  []
@@ -1795,7 +1856,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 703--40
 
  []
 
-[41] (Section/5.tex
+[43] (Section/5.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--12
 
  []
@@ -1810,7 +1871,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[42]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
@@ -1840,7 +1901,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[43] [44] [45]
+[45] [46] [47]
 Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
@@ -1860,7 +1921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
-[46]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
@@ -1870,7 +1931,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-[47]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
@@ -1880,7 +1941,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
-[48]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
@@ -1915,12 +1976,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-) [49] (Section/6.tex [50]) [51] (Section/7.tex [52]
+) [51] (Section/6.tex [52]) [53] (Section/7.tex [54]
 Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[53]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
@@ -1945,12 +2006,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 
  []
 
-[54]) [55] (Section/8.tex
+[56]) [57] (Section/8.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[56]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -1960,7 +2021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-[57]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -1985,12 +2046,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-[58]
+[60] [61]
 Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-[59]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 121--122
 
  []
@@ -2000,7 +2061,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-[60]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
@@ -2010,7 +2071,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-[61]
+[64]
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
@@ -2030,22 +2091,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-[62]) [63] (Section/9.tex [64]
+[65]) [66] (Section/9.tex [67]
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-[65] [66]
+[68] [69]
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-[67]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[68]
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
@@ -2055,7 +2116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-[69]) [70] (Section/10.tex [71]
+[72]) [73] (Section/10.tex [74]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -2075,7 +2136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
-[72] [73]
+[75] [76]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -2120,12 +2181,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
-[74]) [75] (Section/11.tex) [76] (Section/12.tex
+[77]) [78] (Section/11.tex) [79] (Section/12.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[77]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
  []
@@ -2145,12 +2206,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
-[78]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-[79]) [80] (Section/13.tex [81]
+[82]) [83] (Section/13.tex [84] [85]
 Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
@@ -2195,13 +2256,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
 
-[82]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 151--152
 
  []
 
-) [83] (Section/14.tex [84]) [85] (Section/15.tex) [86] (Section/16.tex
-[87]
+) [87] (Section/14.tex [88]) [89] (Section/15.tex) [90] (Section/16.tex
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
@@ -2236,7 +2297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
-[88]
+[92]
 Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
@@ -2256,7 +2317,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
-[89]
+[93]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -2271,7 +2332,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
-) [90] (Section/17.tex
+) [94] (Section/17.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
@@ -2291,12 +2352,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
-[91]
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[92] [93]
+[96] [97]
 Underfull \hbox (badness 10000) in paragraph at lines 133--134
 
  []
@@ -2306,17 +2367,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-[94]
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-[95]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-[96]
+[100]
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
@@ -2336,7 +2397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-) [97] (Section/18.tex [98] [99] [100]
+) [101] (Section/18.tex [102] [103] [104]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -2463,21 +2524,21 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
- [101] (Analysis.aux
+ [105] (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
 )
 Package rerunfilecheck Info: File `Analysis.out' has not changed.
-(rerunfilecheck)             Checksum: D1F217DFB0A7EF8FF21D55BE5CEA7E3D;15148.
+(rerunfilecheck)             Checksum: 02C2A0B1AAA729B5278974E52E4373B8;26604.
  ) 
 Here is how much of TeX's memory you used:
- 29738 strings out of 413434
- 582633 string characters out of 5850913
+ 29781 strings out of 413434
+ 583333 string characters out of 5850913
  1869296 words of memory out of 5000000
- 49336 multiletter control sequences out of 15000+600000
+ 49379 multiletter control sequences out of 15000+600000
  521302 words of font info for 91 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  93i,28n,93p,444b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Analysis.pdf (102 pages).
+Output written on Analysis.pdf (106 pages).

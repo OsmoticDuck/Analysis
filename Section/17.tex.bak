@@ -200,7 +200,7 @@ sei $\tilde{n}=n+2$, dann
 \end{align*}
 Die Voraussetzung ist, dass mit $n=ungerade$ alle Terme $a_{n_{ungerade}}=0$ sind, dann entfernen wir alle $a_nx^n$ von ungerade $n$.
 
-Dann ist $\tilde{f}=f+a_n+a_{n+2}x^{n+2}$ gerade, denn alle $n+2$ sind auch gerade.
+Dann ist $\tilde{f}=f+a_{n+2}x^{n+2}$ gerade, denn alle $n+2$ sind auch gerade.
 \end{proof}
 
 \newpage
@@ -238,7 +238,7 @@ sei $\tilde{n}=n+2$, dann
 \end{align*}
 Die Voraussetzung ist, dass mit $n=gerade$ alle Terme $a_{n_{gerade}}=0$ sind, dann entfernen wir alle $a_nx^n$ von gerade $n$.
 
-Dann ist $\tilde{f}=f+a_n+a_{n+2}x^{n+2}$ ungerade, denn alle $n+2$ sind auch ungerade.
+Dann ist $\tilde{f}=f+a_{n+2}x^{n+2}$ ungerade, denn alle $n+2$ sind auch ungerade.
 \end{proof}
 
 \newpage
