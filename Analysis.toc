@@ -259,3 +259,10 @@
 \contentsline {subsection}{\numberline {18.5}Aufgabe 18.5(H)}{104}{subsection.18.5}%
 \contentsline {subsection}{\numberline {18.6}Aufgabe 18.6(H)}{104}{subsection.18.6}%
 \contentsline {subsection}{\numberline {18.7}Tutorium}{105}{subsection.18.7}%
+\contentsline {paragraph}{Aufgabe 18.5(H)}{106}{section*.17}%
+\contentsline {paragraph}{Aufgabe 18.6(H)}{107}{section*.18}%
+\contentsline {section}{\numberline {19}19. Übungsblatt}{108}{section.19}%
+\contentsline {paragraph}{Aufgabe 19.1}{108}{section*.19}%
+\contentsline {paragraph}{Aufgabe 19.2}{109}{section*.20}%
+\contentsline {paragraph}{Aufgabe 19.3}{109}{section*.21}%
+\contentsline {paragraph}{Tutorium}{110}{section*.22}%
