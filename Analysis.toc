@@ -208,61 +208,27 @@
 \contentsline {subsection}{\numberline {13.4}13.4}{86}{subsection.13.4}%
 \contentsline {subsection}{\numberline {13.5}tut}{87}{subsection.13.5}%
 \contentsline {section}{\numberline {14}14. Übungsblatt}{88}{section.14}%
-\contentsline {subsection}{\numberline {14.1}Aufgabe 14.1}{88}{subsection.14.1}%
-\contentsline {subsubsection}{\numberline {14.1.1}(a)}{88}{subsubsection.14.1.1}%
-\contentsline {subsubsection}{\numberline {14.1.2}(b)}{88}{subsubsection.14.1.2}%
-\contentsline {subsubsection}{\numberline {14.1.3}(c)}{88}{subsubsection.14.1.3}%
-\contentsline {subsection}{\numberline {14.2}Aufgabe 14.2}{88}{subsection.14.2}%
-\contentsline {subsubsection}{\numberline {14.2.1}(a)}{88}{subsubsection.14.2.1}%
-\contentsline {subsubsection}{\numberline {14.2.2}(b)}{88}{subsubsection.14.2.2}%
-\contentsline {paragraph}{(i)}{88}{section*.13}%
-\contentsline {paragraph}{(ii)}{88}{section*.14}%
-\contentsline {subsection}{\numberline {14.3}Aufgabe 14.3}{88}{subsection.14.3}%
-\contentsline {subsubsection}{\numberline {14.3.1}(a)}{88}{subsubsection.14.3.1}%
-\contentsline {subsubsection}{\numberline {14.3.2}(b)}{88}{subsubsection.14.3.2}%
-\contentsline {subsubsection}{\numberline {14.3.3}(c)}{88}{subsubsection.14.3.3}%
-\contentsline {subsection}{\numberline {14.4}Aufgabe 14.4}{89}{subsection.14.4}%
+\contentsline {paragraph}{Aufgabe 14.1}{88}{section*.13}%
+\contentsline {paragraph}{Aufgabe 14.2}{88}{section*.14}%
+\contentsline {paragraph}{Aufgabe 14.3}{88}{section*.15}%
+\contentsline {paragraph}{Aufgabe 14.4}{89}{section*.16}%
 \contentsline {section}{\numberline {15}15. Übungsblatt}{90}{section.15}%
 \contentsline {section}{\numberline {16}16. Übungsblatt}{91}{section.16}%
-\contentsline {subsection}{\numberline {16.1}Aufgabe 16.1}{91}{subsection.16.1}%
-\contentsline {subsection}{\numberline {16.2}Aufgabe 16.2}{91}{subsection.16.2}%
-\contentsline {subsection}{\numberline {16.3}Aufgabe 16.3(H)}{92}{subsection.16.3}%
-\contentsline {subsubsection}{\numberline {16.3.1}(a)}{92}{subsubsection.16.3.1}%
-\contentsline {subsubsection}{\numberline {16.3.2}(b)}{94}{subsubsection.16.3.2}%
-\contentsline {section}{\numberline {17}17. Übungsblatt}{95}{section.17}%
-\contentsline {subsection}{\numberline {17.1}Aufgabe 17.1}{95}{subsection.17.1}%
-\contentsline {subsection}{\numberline {17.2}Aufgabe 17.2}{95}{subsection.17.2}%
-\contentsline {subsection}{\numberline {17.3}Aufgabe 17.3}{96}{subsection.17.3}%
-\contentsline {subsection}{\numberline {17.4}Aufgabe 17.4}{96}{subsection.17.4}%
-\contentsline {subsection}{\numberline {17.5}Aufgabe 17.5(H)}{97}{subsection.17.5}%
-\contentsline {subsubsection}{\numberline {17.5.1}(a)}{97}{subsubsection.17.5.1}%
-\contentsline {subsubsection}{\numberline {17.5.2}(b)}{97}{subsubsection.17.5.2}%
-\contentsline {subsubsection}{\numberline {17.5.3}(c)}{97}{subsubsection.17.5.3}%
-\contentsline {subsubsection}{\numberline {17.5.4}(d)}{97}{subsubsection.17.5.4}%
-\contentsline {subsection}{\numberline {17.6}Aufgabe 17.6(H)}{98}{subsection.17.6}%
-\contentsline {subsubsection}{\numberline {17.6.1}(a)}{98}{subsubsection.17.6.1}%
-\contentsline {subsubsection}{\numberline {17.6.2}(b)}{99}{subsubsection.17.6.2}%
-\contentsline {paragraph}{(i)}{99}{section*.15}%
-\contentsline {paragraph}{(ii)}{100}{section*.16}%
-\contentsline {subsection}{\numberline {17.7}Tutorium}{101}{subsection.17.7}%
-\contentsline {section}{\numberline {18}18. Übungsblatt}{102}{section.18}%
-\contentsline {subsection}{\numberline {18.1}Aufgabe 18.1}{102}{subsection.18.1}%
-\contentsline {subsubsection}{\numberline {18.1.1}(a)}{102}{subsubsection.18.1.1}%
-\contentsline {subsubsection}{\numberline {18.1.2}(b)}{102}{subsubsection.18.1.2}%
-\contentsline {subsubsection}{\numberline {18.1.3}(c)}{102}{subsubsection.18.1.3}%
-\contentsline {subsubsection}{\numberline {18.1.4}(d)}{102}{subsubsection.18.1.4}%
-\contentsline {subsubsection}{\numberline {18.1.5}(e)}{103}{subsubsection.18.1.5}%
-\contentsline {subsubsection}{\numberline {18.1.6}(f)}{103}{subsubsection.18.1.6}%
-\contentsline {subsection}{\numberline {18.2}Aufgabe 18.2}{104}{subsection.18.2}%
-\contentsline {subsection}{\numberline {18.3}Aufgabe 18.3}{104}{subsection.18.3}%
-\contentsline {subsection}{\numberline {18.4}Aufgabe 18.4}{104}{subsection.18.4}%
-\contentsline {subsection}{\numberline {18.5}Aufgabe 18.5(H)}{104}{subsection.18.5}%
-\contentsline {subsection}{\numberline {18.6}Aufgabe 18.6(H)}{104}{subsection.18.6}%
-\contentsline {subsection}{\numberline {18.7}Tutorium}{105}{subsection.18.7}%
-\contentsline {paragraph}{Aufgabe 18.5(H)}{106}{section*.17}%
-\contentsline {paragraph}{Aufgabe 18.6(H)}{107}{section*.18}%
-\contentsline {section}{\numberline {19}19. Übungsblatt}{108}{section.19}%
-\contentsline {paragraph}{Aufgabe 19.1}{108}{section*.19}%
-\contentsline {paragraph}{Aufgabe 19.2}{109}{section*.20}%
-\contentsline {paragraph}{Aufgabe 19.3}{109}{section*.21}%
-\contentsline {paragraph}{Tutorium}{110}{section*.22}%
+\contentsline {paragraph}{Aufgabe 16.3(H)}{91}{section*.17}%
+\contentsline {section}{\numberline {17}17. Übungsblatt}{94}{section.17}%
+\contentsline {paragraph}{Aufgabe 17.1}{94}{section*.18}%
+\contentsline {paragraph}{Aufgabe 17.2}{94}{section*.19}%
+\contentsline {paragraph}{Aufgabe 17.4}{95}{section*.20}%
+\contentsline {paragraph}{Aufgabe 17.5(H)}{96}{section*.21}%
+\contentsline {paragraph}{Aufgabe 17.6(H)}{97}{section*.22}%
+\contentsline {paragraph}{Tutorium}{100}{section*.23}%
+\contentsline {section}{\numberline {18}18. Übungsblatt}{101}{section.18}%
+\contentsline {paragraph}{Aufgabe 18.1}{101}{section*.24}%
+\contentsline {paragraph}{Aufgabe 18.5(H)}{103}{section*.25}%
+\contentsline {paragraph}{Aufgabe 18.6(H)}{104}{section*.26}%
+\contentsline {paragraph}{Tutorium}{105}{section*.27}%
+\contentsline {section}{\numberline {19}19. Übungsblatt}{106}{section.19}%
+\contentsline {paragraph}{Aufgabe 19.1}{106}{section*.28}%
+\contentsline {paragraph}{Aufgabe 19.2}{107}{section*.29}%
+\contentsline {paragraph}{Aufgabe 19.3}{107}{section*.30}%
+\contentsline {paragraph}{Tutorium}{108}{section*.31}%

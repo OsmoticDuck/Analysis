@@ -1,14 +1,18 @@
 \section{18. Übungsblatt}
 
-\subsection{Aufgabe 18.1}
+\paragraph{Aufgabe 18.1}
 
-\subsubsection{(a)}
+\begin{enumerate}
+
+\item[(a)]
+
 \begin{align*}
 &\lim_{x\rightarrow 1}\frac{\ln(x)}{x-\sqrt{x}}\\
 &=\lim_{x\rightarrow1}\frac{\frac{1}{x}}{1-\frac{1}{2\sqrt{x}}}=\frac{1}{\frac{1}{2}}=2
 \end{align*}
 
-\subsubsection{(b)}
+\item[(b)]
+
 \begin{align*}
 &\lim_{x\rightarrow0}\frac{\ln(\cos(x))}{x^2}\\
 &=\lim\frac{\frac{1}{\cos(x)}\cdot(-\sin(x))}{2x}\\
@@ -16,7 +20,8 @@
 &=\lim\frac{-\frac{1}{\cos^2(x)}}{2}=\frac{-1}{2}
 \end{align*}
 
-\subsubsection{(c)}
+\item[(c)]
+
 \begin{align*}
 &\lim_{x\rightarrow0}x^{\frac{1}{1-x}}\\
 &=(e^{\lim \ln(x)})^{\frac{1}{1-x}}\\
@@ -24,7 +29,8 @@
 &\lim\frac{\ln(x)}{1-x}=\lim_{x\rightarrow1}\frac{\frac{1}{x}}{-1}=-1
 \end{align*}
 
-\subsubsection{(d)}
+\item[(d)]
+
 \begin{align*}
 &\lim_{x\rightarrow0}\frac{(1-x)^\alpha-(1-\alpha x)}{x^2}="\frac{0}{0}"\\
 &=\lim\frac{-\alpha(1-x)^{\alpha-1}+\alpha}{2x}="\frac{0}{0}"\\
@@ -34,14 +40,16 @@
 
 \newpage
 
-\subsubsection{(e)}
+\item[(e)]
+
 \begin{align*}
 &\lim_{x\rightarrow\infty}x\ln(1+\frac{1}{x})="\infty\cdot0"\\
 &=\lim\frac{\ln(1-\frac{1}{x})}{\frac{1}{x}}="\frac{0}{0}"\\
 &=\lim\frac{-\frac{1}{1+\frac{1}{x}}x^{-2}}{-x^{-2}}=\lim\frac{1}{1+\frac{1}{x}}=1
 \end{align*}
 
-\subsubsection{(f)}
+\item[(f)]
+
 \begin{align*}
 &\lim_{x\downarrow0}(\cot(x))^{\sin(x)}\\
 &=\lim\exp(\frac{\ln(\cot(x))}{\frac{1}{\sin(x)}})="\frac{\infty}{\infty}"\\
@@ -50,21 +58,105 @@
 &=\exp(\lim\frac{\sin(x)}{\cot^2(x)})=1
 \end{align*}
 
-\newpage
-
-\subsection{Aufgabe 18.2}
-
-\subsection{Aufgabe 18.3}
-
-\subsection{Aufgabe 18.4}
-
-\subsection{Aufgabe 18.5(H)}
-
-\subsection{Aufgabe 18.6(H)}
+\end{enumerate}
 
 \newpage
 
-\subsection{Tutorium}
+\paragraph{Aufgabe 18.5(H)}
+
+\begin{enumerate}
+
+\item[]
+
+Gegeben sei die Funktion $f$:
+\begin{align*}
+f:\mathbb{R}_+ \rightarrow \mathbb{R},
+\hspace{1em}
+x\mapsto x^n e^{-x}
+\end{align*}
+
+deren Ableitung und 2.Ableitung sind
+\begin{align*}
+f'&:\mathbb{R}_+ \rightarrow \mathbb{R},
+\hspace{1em}
+x\mapsto n x^{n-1} e^{-x} - x^n e^{-x} \\
+f''&:\mathbb{R}_+ \rightarrow \mathbb{R},
+\hspace{1em}
+x\mapsto n (n-1) x^{n-2} e^{-x} - 2 n x^{n-1} e^{-x} - f
+\end{align*}
+
+wir suchen die Nullpunkt(e) von $f'$
+\begin{align*}
+f'(x) = 0 \\
+\Rightarrow x_0 = n
+\end{align*}
+\begin{align*}
+f''(x_0=n)
+&= -2 n e^{-n} - x^n e^{-n} \\
+&= -( 2 n + x^n ) e^{-n} \\
+(n\in\mathbb{N},n>0)
+&\Rightarrow f''(n) < 0
+\end{align*}
+
+d.h. es existiert eine lokale Maxima bei $x=n$ von $f$.
+
+\end{enumerate}
+
+\newpage
+
+\paragraph{Aufgabe 18.6(H)}
+
+\begin{enumerate}
+
+\item[]
+
+Zu beweisen ist:
+\begin{align*}
+(f(b)-f(a))g'(\xi)&=(g(b)-g(a))f'(\xi) \\
+(f(b)-f(a))g'(\xi)-(g(b)-g(a))f'(\xi)&=0
+\end{align*}
+
+\begin{proof}
+$ $\newline
+
+Sei $h(x)=(f(b)-f(a))g(x)-(g(b)-g(a))f(x)$
+
+dann gilt
+\begin{align*}
+h'(x)=(f(b)-f(a))g'(x)-(g(b)-g(a))f'(x)
+\end{align*}
+
+und
+\begin{align*}
+h(a)
+&=(f(b)-f(a))g(a)-(g(b)-g(a))f(a) \\
+&=f(b)g(a)-f(a)g(a)-g(b)f(a)+g(a)f(a) \\
+&=f(b)g(a)-g(b)f(a) \\
+h(b)
+&=(f(b)-f(a))g(b)-(g(b)-g(a))f(b) \\
+&=f(b)g(b)-f(a)g(b)-g(b)f(b)+g(a)f(b) \\
+&=-f(a)g(b)+g(a)f(b)
+\end{align*}
+
+deswegen
+\begin{align*}
+h(a)=h(b)
+\end{align*}
+
+Gegeben seien $f,g$ in $[a,b]$ stetig, in $(a,b)$ differenzierbar, dann ist $h$ auch in $[a,b]$ stetig und in $(a,b)$ differenzierbar.
+
+Nach $Satz\ von\ Rolle$, es existiert $\xi\in(a,b)$, sodass
+\begin{align*}
+h'(\xi)=(f(b)-f(a))g'(\xi)-(g(b)-g(a))f'(\xi)=0
+\end{align*}
+
+\end{proof}
+
+\end{enumerate}
+
+\newpage
+
+\paragraph{Tutorium}
 
 $\lim_{x\rightarrow x_0}\frac{f}{g}\overset{Formel}{=}\frac{\lim f}{\lim g}=\frac{\infty}{\infty}oder\frac{0}{0}$,dann
 
@@ -109,8 +201,9 @@ $x=(x_1,\cdots,x_n)\in\mathbb{R}^n\ od.\ \mathbb{C}^n$,
 \end{equation*}
 \end{definition}
 
-\center
+\begin{center}
 
+%\center
 
 \tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
 
@@ -146,5 +239,6 @@ $x=(x_1,\cdots,x_n)\in\mathbb{R}^n\ od.\ \mathbb{C}^n$,
 % Text Node
 \draw (421,188) node [anchor=north west][inner sep=0.75pt]   [align=left] {p=infinity};
 
-
 \end{tikzpicture}
+
+\end{center}
