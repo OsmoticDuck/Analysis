@@ -9,6 +9,7 @@
 \author{Zehao Gao}
 
 \input{./conf/newtheorem.tex}
+\renewcommand{\frac}{\dfrac}
 
 \counterwithin*{equation}{section}
 \counterwithin*{equation}{subsection}
@@ -100,136 +101,6 @@
 
 \newpage
 
-\section*{19}
-
-\paragraph{Aufgabe 19.5(H)}
-
-\begin{enumerate}
-
-\item[]
-
-Gegeben sei die Funktion
-\begin{align*}
-f:\mathbb{R}\rightarrow\mathbb{R},
-\hspace{1em}
-x\mapsto
-\left\{
-\begin{array}{lcl}
-\sin(x) & \mbox{falls }x\geq\frac{\pi}{2} \\
-a(x+b)^2+c & \mbox{falls }x<\frac{\pi}{2}
-\end{array}
-\right.
-\end{align*}
-
-nun offenbar ist $\sin(x)$ in $(-\infty,\frac{\pi}{2})$ differenzierbar. Die Voraussetzungen für $f$ differenzierbar sind:
-\begin{enumerate}
-\item[(i)]$f$ am Punkt $\frac{\pi}{2}$ stetig und differenzierbar.
-\item[(ii)]$a(x+b)^2+c$ in $(\frac{\pi}{2},\infty)$ stetig und differenzierbar.
-\end{enumerate}
-
-dazu
-\item[(i)]
-\begin{align*}
-\sin(\frac{\pi}{2})&=a(\frac{\pi}{2}+b)^2+c \\
-1&=a(\frac{\pi}{2}+b)^2+c
-\end{align*}
-und die Ableitungen am Punkt $\frac{\pi}{2}$
-\begin{align*}
-\cos(\frac{\pi}{2})&=2a(\frac{\pi}{2}+b) \\
-0&=2a(\frac{\pi}{2}+b)
-\end{align*}
-
-führt zur Lösung
-\begin{align*}
-\left\{
-\begin{array}{lcl}
-a=0 \\
-b\in\mathbb{R} \\
-c=1
-\end{array}
-\right.
-\hspace{1em}\mbox{oder}\hspace{1em}
-\left\{
-\begin{array}{lcl}
-a\in\mathbb{R} \\
-b=0 \\
-c=1
-\end{array}
-\right.
-\end{align*}
-
-\item[(ii)]
-Nach (i) ist $f$ in $(\frac{\pi}{2},\infty)$ Konstant ($f=1$), offenbar stetig und differenzierbar.
-
-\begin{center}
-
-
-\tikzset{every picture/.style={line width=0.75pt}} %set default line width to 0.75pt        
-
-\begin{tikzpicture}[x=0.75pt,y=0.75pt,yscale=-1,xscale=1]
-%uncomment if require: \path (0,309); %set diagram left start at 0, and has height of 309
-
-%Shape: Axis 2D [id:dp8104424795739424] 
-\draw  (-2.33,177) -- (347.67,177)(103.04,57) -- (103.04,291) (340.67,172) -- (347.67,177) -- (340.67,182) (98.04,64) -- (103.04,57) -- (108.04,64)  ;
-%Shape: Wave [id:dp08206399217933691] 
-\draw   (2.67,177) .. controls (18.97,204.66) and (34.57,231) .. (52.67,231) .. controls (70.76,231) and (86.36,204.66) .. (102.67,177) .. controls (118.97,149.34) and (134.57,123) .. (152.67,123) .. controls (153.34,123) and (154,123.04) .. (154.67,123.11) ;
-%Straight Lines [id:da6140218308409282] 
-\draw    (154,123) -- (284.67,123) ;
-%Straight Lines [id:da31041816577154635] 
-\draw  [dash pattern={on 0.84pt off 2.51pt}]  (154,123) -- (154,176) ;
-%Straight Lines [id:da886229789117055] 
-\draw  [dash pattern={on 0.84pt off 2.51pt}]  (102.67,123) -- (154,123) ;
-
-% Text Node
-\draw (156,179) node [anchor=north west][inner sep=0.75pt]   [align=left] {$\frac{\pi}{2}$};
-% Text Node
-\draw (339,186) node [anchor=north west][inner sep=0.75pt]   [align=left] {$x$};
-% Text Node
-\draw (86,54) node [anchor=north west][inner sep=0.75pt]   [align=left] {$y$};
-% Text Node
-\draw (88,116) node [anchor=north west][inner sep=0.75pt]   [align=left] {$1$};
-
-
-\end{tikzpicture}
-\end{center}
-
-\end{enumerate}
-
-\newpage
-
-\paragraph{Aufgabe 19.6(H)}
-
-\begin{enumerate}
-
-\item[(a)]
-
-Legendreschen Polynome
-\begin{align*}
-L_n:\mathbb{R}\rightarrow\mathbb{R},
-\hspace{1em}
-x\mapsto\frac{1}{2^n n!}\cdot\frac{d^n}{dx^n}[(x^2-1)^n]
-\end{align*}
-
-$L_0,L_1,L_2$ sind
-\begin{align*}
-L_0:\hspace{1em}
-x\mapsto &\frac{1}{2^0 0!}\cdot\frac{d^0}{dx^0}[(x^2-1)^0] \\
-=&1 \\
-L_1:\hspace{1em}
-x\mapsto &\frac{1}{2^1 1!}\cdot\frac{d^1}{dx^1}[(x^2-1)^1] \\
-=&x \\
-L_2:\hspace{1em}
-x\mapsto &\frac{1}{2^2 2!}\cdot\frac{d^2}{dx^2}[(x^2-1)^2] \\
-=&\frac{1}{2}(3x^2-1)
-\end{align*}
-
-\item[(b)]
-
-
-\end{enumerate}
-
-\newpage
-
 \section*{Blatt 20}
 
 \paragraph{Aufgabe 20.1}
@@ -242,7 +113,7 @@ x\mapsto &\frac{1}{2^2 2!}\cdot\frac{d^2}{dx^2}[(x^2-1)^2] \\
 \begin{align*}
 \end{align*}
 
-Sei $\epsilon>0$ gegeb. und $N\in\mathbb{N}$ se i gemaess (*) gewahlt.
+Sei $\epsilon>0$ gegeb. und $N\in\mathbb{N}$ sei gemaess (*) gewahlt.
 
 f.a. $n\geq N$ gilt
 \begin{align*}
