@@ -232,3 +232,6 @@
 \contentsline {paragraph}{Aufgabe 19.2}{107}{section*.29}%
 \contentsline {paragraph}{Aufgabe 19.3}{107}{section*.30}%
 \contentsline {paragraph}{Tutorium}{108}{section*.31}%
+\contentsline {paragraph}{Aufgabe 19.5(H)}{109}{section*.33}%
+\contentsline {paragraph}{Aufgabe 19.6(H)}{110}{section*.34}%
+\contentsline {paragraph}{Aufgabe 20.1}{111}{section*.36}%
