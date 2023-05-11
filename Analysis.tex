@@ -101,45 +101,6 @@
 
 \newpage
 
-\section*{Blatt 20}
-
-\paragraph{Aufgabe 20.1}
-
-\begin{enumerate}
-
-\item[]
-
-(*):
-\begin{align*}
-\end{align*}
-
-Sei $\epsilon>0$ gegeb. und $N\in\mathbb{N}$ sei gemaess (*) gewahlt.
-
-f.a. $n\geq N$ gilt
-\begin{align*}
-\varphi_n(x)-\epsilon'\leq f(x)\leq\varphi_n(x)+\epsilon'
-\end{align*}
-f.a. $x\in[a,b]$
-
-Die folgt
-\begin{align*}
-\psi^\pm_n: [a,b]\rightarrow\mathbb{R}\ mit\ \psi^\pm_n(x)=\varphi_n(x)\pm\epsilon'
-\end{align*}
-gehoren zu $J[a,b]$
-
-mit $\psi^-_n\leq g\leq\psi^+_n$ auf $[a,b]$
-
-\begin{align*}
-\int_a^b(\psi^+_n-\psi^-_n)(x)dx&=\int_a^b(\psi_n(x)+\epsilon')-(\psi_n(x)-\epsilon')dx \\
-&=\int_a^b2\epsilon'dx=2\epsilon'(b-a)=\frac{\epsilon}{2(b-a)}2(b-a)=\epsilon
-\end{align*}
-
-fuer $n\geq N$
-\begin{align*}
-\int_a^b\psi^-_n(xd)dx\leq\sup\{\int_a^b\psi^-(x)dx|\psi^-\in J[a,b],\psi^+\leq f\}=\int_a^b {}_xf(x)dx\leq&\int_a^b{}^yf(x)dx=\inf\{\int_a^b\psi^+(x)|\psi^+\in J[a,b],\psi^+\geq f\} \\
-\leq& \int_a^b\psi^+_n(x)=\int_a^b\psi_n(x)+\epsilon'dx=\int_a^b\psi_n(x)dx+\frac{\epsilon}{2}
-\end{align*}
-
-\end{enumerate}
+\input{./Section/20.tex}
 
 \end{document}

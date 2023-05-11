@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.5.1)  3 MAY 2023 22:39
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.5.1)  11 MAY 2023 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -977,6 +977,33 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
+(C:\Users\gaoze\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xfrac\xfrac.
+sty (C:\Users\gaoze\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\gaoze\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xtemplate\xt
+emplate.sty
+Package: xtemplate 2023-02-02 L3 Experimental prototype document functions
+\l__xtemplate_tmp_dim=\dimen286
+\l__xtemplate_tmp_int=\count350
+\l__xtemplate_tmp_muskip=\muskip18
+\l__xtemplate_tmp_skip=\skip65
+)
+Package: xfrac 2023-02-02 L3 Experimental split-level fractions
+\l__xfrac_slash_box=\box79
+\l__xfrac_tmp_box=\box80
+\l__xfrac_denominator_bot_sep_dim=\dimen287
+\l__xfrac_numerator_bot_sep_dim=\dimen288
+\l__xfrac_numerator_top_sep_dim=\dimen289
+\l__xfrac_slash_left_sep_dim=\dimen290
+\l__xfrac_slash_right_sep_dim=\dimen291
+\l__xfrac_slash_left_muskip=\muskip19
+\l__xfrac_slash_right_muskip=\muskip20
+
+Package xtemplate Info: Declaring object type 'xfrac' taking 3 argument(s) on
+(xtemplate)             line 80.
+
+)
 (C:\Users\gaoze\AppData\Local\Programs\MiKTeX\tex/latex/stmaryrd\stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
@@ -1053,10 +1080,10 @@ Package babel Info: Making " an active character on input line 183.
 )
 Package polyglossia Info: Default language is german.
  (conf/newtheorem.tex
-\c@theorem=\count350
-\c@corollary=\count351
-\c@definition=\count352
-\c@exmp=\count353
+\c@theorem=\count351
+\c@corollary=\count352
+\c@definition=\count353
+\c@exmp=\count354
 ) (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
@@ -2395,11 +2422,31 @@ Overfull \hbox (20.48836pt too wide) detected at line 232
 []
  []
 
-[112] [113]) [114]
-Overfull \hbox (131.49199pt too wide) detected at line 141
+[112] [113]) [114] (Section/20.tex
+Overfull \hbox (131.49199pt too wide) detected at line 38
 []
  []
 
+[115]
+LaTeX Font Info:    Calculating math sizes for size <7.665> on input line 70.
+
+
+LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.83249> not available
+(Font)              size <5> substituted on input line 70.
+
+
+LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.83249> not available
+(Font)              size <5> substituted on input line 70.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.83249> not available
+(Font)              size <5> substituted on input line 70.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.83249> not available
+(Font)              size <5> substituted on input line 70.
+
+[116] [117] [118])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2537,21 +2584,25 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
-[115] (Analysis.aux
+ [119] (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
 )
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 2.90001pt have occurred.
+
 Package rerunfilecheck Info: File `Analysis.out' has not changed.
 (rerunfilecheck)             Checksum: 8F42AA68987399E5056CEA44DA170CA3;22044.
  ) 
 Here is how much of TeX's memory you used:
- 29635 strings out of 411448
- 581877 string characters out of 5817462
+ 30208 strings out of 411448
+ 598371 string characters out of 5817462
  1869698 words of memory out of 5000000
- 49384 multiletter control sequences out of 15000+600000
- 521302 words of font info for 91 fonts, out of 8000000 for 9000
+ 49921 multiletter control sequences out of 15000+600000
+ 528113 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,29n,83p,804b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Analysis.pdf (116 pages).
+Output written on Analysis.pdf (120 pages).
