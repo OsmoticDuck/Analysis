@@ -101,212 +101,85 @@
 
 \newpage
 
-\section*{Blatt 20}
+\input{./Section/20.tex}
 
-\paragraph{Aufgabe 20.1}
+\newpage
+
+\section*{Blatt 21}
+
+\newpage
+
+\paragraph{Aufgabe 21.5(H)}
+
+Calculate antiderivative of following functions with proper methods:
 
 \begin{enumerate}
 
-\item[]
-
-(*):
+\item[(a)]$f(x)=x^3e^x$
 \begin{align*}
+\int f(x)dx
+&=\int x^3e^x dx \\
+&=x^3e^x-\int 3x^2e^x dx \\
+&=x^3e^x+3x^2e^x-\int 6xe^x dx \\
+&=x^3e^x+3x^2e^x+6xe^x-\int 6e^x dx \\
+&=x^3e^x+3x^2e^x+6xe^x-6e^x \\
+&=(x^3+3x^2+6x-6)e^x
+\end{align*}\\
+
+\item[(b)]$f(x)=3e^x\sqrt{e^x+1}$
+
+Substitute $t=e^x+1$, therefore
+\begin{align*}
+dt=e^xdx
 \end{align*}
-
-Sei $\epsilon>0$ gegeb. und $N\in\mathbb{N}$ sei gemaess (*) gewahlt.
-
-f.a. $n\geq N$ gilt
+then we have
 \begin{align*}
-\varphi_n(x)-\epsilon'\leq f(x)\leq\varphi_n(x)+\epsilon'
+\int f(x)dx=\int 3e^x\sqrt{e^x+1}dx
+&=3\int \sqrt{t}dt \\
+&=2t^{\sfrac{3}{2}} \\
+&=2(e^x+1)^{\sfrac{3}{2}}
 \end{align*}
-f.a. $x\in[a,b]$
+\\
 
-Die folgt
+\item[(c)]$f(x)=x\ln x \hspace{1em} (x>0)$
 \begin{align*}
-\psi^\pm_n: [a,b]\rightarrow\mathbb{R}\ mit\ \psi^\pm_n(x)=\varphi_n(x)\pm\epsilon'
-\end{align*}
-gehoren zu $J[a,b]$
-
-mit $\psi^-_n\leq g\leq\psi^+_n$ auf $[a,b]$
-
-\begin{align*}
-\int_a^b(\psi^+_n-\psi^-_n)(x)dx&=\int_a^b(\psi_n(x)+\epsilon')-(\psi_n(x)-\epsilon')dx \\
-&=\int_a^b2\epsilon'dx=2\epsilon'(b-a)=\frac{\epsilon}{2(b-a)}2(b-a)=\epsilon
-\end{align*}
-
-fuer $n\geq N$
-\begin{align*}
-\int_a^b\psi^-_n(xd)dx\leq\sup\{\int_a^b\psi^-(x)dx|\psi^-\in J[a,b],\psi^+\leq f\}=\int_a^b {}_xf(x)dx\leq&\int_a^b{}^yf(x)dx=\inf\{\int_a^b\psi^+(x)|\psi^+\in J[a,b],\psi^+\geq f\} \\
-\leq& \int_a^b\psi^+_n(x)=\int_a^b\psi_n(x)+\epsilon'dx=\int_a^b\psi_n(x)dx+\frac{\epsilon}{2}
-\end{align*}
-
-\end{enumerate}
-
-\newpage
-
-\paragraph{Aufgabe 20.5(H)}
-
-\begin{enumerate}
-
-\item[]
-
-Wir ermitteln das folgende Integral mittels Riemannsche Summe
-\begin{align*}
-\int_a^b e^x dx
-\end{align*}
-
-Sei $n\in\mathbb{N}$, dann ist
-\begin{align*}
-x_k=\frac{k(b-a)}{n}+a,
-\hspace{1em}
-k\in\mathbb{N}_{[0,n]}
-\end{align*}
-eine äquidistante Unterteilung von $[a,b]$, das heißt $a=x_0<x_1<\cdots<x_n=b$
-
-dann gilt
-\begin{align*}
-S_n
-&=\frac{b-a}{n} \sum_{k=1}^n \exp\bigg(\frac{k(b-a)}{n}+a\bigg) \\
-&=\frac{(b-a)\exp(a)}{n} \sum_{k=1}^n \bigg(\exp\bigg(\frac{b-a}{n}\bigg)\bigg)^k  \\
-&=\frac{(b-a)\exp(a)}{n} \frac{\exp\bigg(\frac{b-a}{n}\bigg)(\exp(b-a)-1)}{\exp\bigg(\frac{b-a}{n}\bigg)-1} \\
-&=\frac{(a-b)(e^a-e^b)}{n}+\frac{(a-b)(e^a-e^b)e^{\sfrac{a}{n}}}{n(e^{\sfrac{b}{n}}-e^{\sfrac{a}{n}})}
-\end{align*}
-
-es gilt
-\begin{align*}
-&\lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)(e^a-e^b)}{n}+\frac{(a-b)(e^a-e^b)e^{\sfrac{a}{n}}}{n(e^{\sfrac{b}{n}}-e^{\sfrac{a}{n}})}\bigg) \\
-=&
-\lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)(e^a-e^b)}{n}\bigg)+
-\lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)(e^a-e^b)e^{\sfrac{a}{n}}}{n(e^{\sfrac{b}{n}}-e^{\sfrac{a}{n}})}\bigg) \\
-=&
-\lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)(e^a-e^b)e^{\sfrac{a}{n}}}{n(e^{\sfrac{b}{n}}-e^{\sfrac{a}{n}})}\bigg) \\
-=&
-(e^a-e^b) \lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)e^{\sfrac{a}{n}}}{n(e^{\sfrac{b}{n}}-e^{\sfrac{a}{n}})}\bigg) \\
-=&
-(e^a-e^b) \lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)}{n}\frac{1}{e^{\sfrac{(b-a)}{n}}-1}\bigg)
-\end{align*}
-
-für den Term $e^{\sfrac{(b-a)}{n}}$, wir benutzen Taylor-Entwicklung bei Punkt $\frac{b-a}{n}$ mit $n\rightarrow\infty$ (d.h. $\frac{b-a}{n}\rightarrow 0$)
-\begin{align*}
-e^{\sfrac{(b-a)}{n}}
-\simeq
-1+\frac{b-a}{n}+
-\underset{ignore}{\underbrace{
-\frac{1}{2!}
-\bigg(\frac{b-a}{n}\bigg)^2+
-\mathcal{O}\bigg(\bigg(\frac{b-a}{n}\bigg)^3\bigg)
-}}
+\int f(x)dx
+&=\int x\ln x dx \\
+&=\frac{1}{2} \int 2x\ln x dx \\
+&=\frac{1}{2}\bigg(x^2\ln x-\int x^2\frac{1}{x}dx\bigg) \\
+&=\frac{1}{2}\bigg(x^2\ln x-\frac{1}{2}x^2\bigg) \\
+&=\frac{x^2}{4}(2\ln x-1)
 \end{align*}
 
 \newpage
 
-dann gilt
+\item[(d)]$f(x)=\frac{1}{\sqrt{x}(1+\sqrt[3]{x})} \hspace{1em} (x>0)$
 \begin{align*}
-&(e^a-e^b) \lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)}{n}\frac{1}{e^{\sfrac{(b-a)}{n}}-1}\bigg) \\
-=&(e^a-e^b) &\lim_{n\rightarrow\infty}
-\bigg(\frac{(a-b)}{n}\frac{1}{1+\frac{b-a}{n}-1}\bigg) \\
-=&e^b-e^a
+f(x)
+=\frac{1}{\sqrt{x}(1+\sqrt[3]{x})}
+=\frac{1}{x^{\sfrac{1}{2}}(1+x^{\sfrac{1}{3}})}
+=\frac{1}{x^{\sfrac{1}{2}}+x^{\sfrac{5}{6}}}
+=\frac{1}{x^{\sfrac{3}{6}}+x^{\sfrac{5}{6}}}
 \end{align*}
+Substitute $t=x^{\sfrac{1}{6}}$ with $dt=\frac{1}{6x^{\sfrac{5}{6}}}dx$ we get
 \begin{align*}
-\int_a^b e^x dx=e^b-e^a
-\end{align*}
-
-\end{enumerate}
-
-\newpage
-
-\paragraph{Aufgabe 20.6(H)}
-
-\begin{enumerate}
-
-\item[]
-
-The function of the ellipse is given by
-\begin{align*}
-\frac{x^2}{a^2}+\frac{y^2}{b^2}\leq 1
-\end{align*}
-or
-\begin{align*}
-\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
+\int f(x)dx=\int\frac{1}{x^{\sfrac{3}{6}}+x^{\sfrac{5}{6}}}dx
+&=\int\frac{6t^5}{t^3+t^5}dt \\
+&=6\int\frac{t^2}{1+t^2}dt \\
+&=6\int 1dt-6\int\frac{1}{1+t^2}dt \\
+&=6t-6\arctan(t) \\
+&=6(x^{\sfrac{1}{6}})-6\arctan(x^{\sfrac{1}{6}})
 \end{align*}
 
-therefore, we have
+\item[(e)]$f(x)=(\ln x)^3$
+
+Substitute $t=\ln x$, with $dt=\frac{1}{x}dx$ and $x=e^t$, we get
 \begin{align*}
-y=\frac{b}{a}\sqrt{a^2-x^2}
+\int f(x)dx=\int (\ln x)^3 dx
+&=\int t^3 e^t dt
 \end{align*}
 
-to determine the area of the ellipse, we do integration over $y$
-\begin{align*}
-A=\int_{x_0}^{x_1} ydx
-\end{align*}
-with $x_0=0$, $x_1=a$. Note that the area $A$ is now only one-fourth of a ellipse, actual area is $A_e=4A$.
-
-Then:
-\begin{align*}
-A=\int_{x_0}^{x_1} ydx=\int_{x_0}^{x_1} \frac{b}{a}\sqrt{a^2-x^2} dx=\frac{b}{a} \int_{x_0}^{x_1} \sqrt{a^2-x^2} dx
-\end{align*}
-
-now comes the hint given in the question: to find the anti-derivative of function $F'(x)=\sqrt{a^2-x^2}$, or to prove that for function $F(x)$
-\begin{align*}
-F(x)=\frac{1}{2}\bigg(x\sqrt{a^2-x^2}+a^2\arcsin\bigg(\frac{x}{a}\bigg)\bigg)
-\end{align*}
-its derivative is $F'(x)=\sqrt{a^2-x^2}$.
-
-\begin{proof}
-
-For function
-\begin{align*}
-F(x)
-=&\frac{1}{2}\bigg(x\sqrt{a^2-x^2}+a^2\arcsin\bigg(\frac{x}{a}\bigg)\bigg) \\
-=&\frac{1}{2}x\sqrt{a^2-x^2}+\frac{1}{2}a^2\arcsin\bigg(\frac{x}{a}\bigg)
-\end{align*}
-
-its derivative is
-\begin{align*}
-F'(x)
-=&\frac{1}{2}\sqrt{a^2-x^2}-\frac{1}{2}\frac{x^2}{\sqrt{a^2-x^2}}+\frac{1}{2}a\frac{1}{\sqrt{1-\frac{x^2}{a^2}}} \\
-=&\frac{1}{2}\bigg(
-\frac{a^2-2x^2}{\sqrt{a^2-x^2}}+\frac{a^2}{\sqrt{a^2-x^2}}
-\bigg) \\
-=&\sqrt{a^2-x^2}
-\end{align*}
-
-\end{proof}
-
-\newpage
-
-Therefore, we have
-\begin{align*}
-\int F'(x) dx
-&=
-F(x)+C \\
-\int \sqrt{a^2-x^2} dx
-&=
-\frac{1}{2}\bigg(x\sqrt{a^2-x^2}+a^2\arcsin\bigg(\frac{x}{a}\bigg)\bigg)
-\end{align*}
-
-now calculate the definite integral
-\begin{align*}
-&\int_{x_0}^{x_1} \sqrt{a^2-x^2} dx \\
-=&
-\frac{1}{2}\bigg(x\sqrt{a^2-x^2}+a^2\arcsin\bigg(\frac{x}{a}\bigg)\bigg)\bigg|_0^a \\
-=&
-\frac{1}{2}\pi a^2
-\end{align*}
-
-therefore
-\begin{align*}
-A=\frac{b}{a}\frac{1}{2}\pi a^2=\frac{1}{4}\pi ab
-\end{align*}
-
-the area of the ellipse is $A_e=4A=\pi ab$
+using the conclusion from (a).
 
 \end{enumerate}
 
