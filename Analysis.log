@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.5.1)  21 MAY 2023 16:58
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.5.1)  7 JUN 2023 17:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2456,7 +2456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[118]) [119] [120] [121]
+[118]) [119] (Section/22.tex [120] [121]
 File: tiles/mahjong-Front.pdf Graphic file (type pdf)
 <use tiles/mahjong-Front.pdf>
 File: tiles/mahjong-6z.pdf Graphic file (type pdf)
@@ -2778,6 +2778,16 @@ File: tiles/mahjong-Front.pdf Graphic file (type pdf)
 <use tiles/mahjong-Front.pdf>
 File: tiles/mahjong-7z.pdf Graphic file (type pdf)
 <use tiles/mahjong-7z.pdf>
+) [123] (Section/23.tex [124]
+LaTeX Font Info:    Trying to load font information for TU+pcr on input line 56
+.
+LaTeX Font Info:    No file TUpcr.fd. on input line 56.
+
+
+LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 56.
+
+[125])
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2915,7 +2925,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
- [123] (Analysis.aux
+ [126] (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
@@ -2924,16 +2934,19 @@ LaTeX Info: Redefining \ttfamily on input line 18.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 2.90001pt have occurred.
 
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `Analysis.out' has not changed.
 (rerunfilecheck)             Checksum: 8F42AA68987399E5056CEA44DA170CA3;22044.
  ) 
 Here is how much of TeX's memory you used:
- 30494 strings out of 411448
- 605652 string characters out of 5817462
+ 30529 strings out of 411448
+ 606318 string characters out of 5817462
  1883698 words of memory out of 5000000
- 50168 multiletter control sequences out of 15000+600000
+ 50195 multiletter control sequences out of 15000+600000
  528113 words of font info for 142 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 89i,28n,83p,804b,711s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,28n,83p,804b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Analysis.pdf (124 pages).
+Output written on Analysis.pdf (127 pages).
