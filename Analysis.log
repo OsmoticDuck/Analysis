@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.5.1)  7 JUN 2023 17:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.4) (preloaded format=xelatex 2023.5.1)  21 JUN 2023 21:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2787,7 +2787,11 @@ LaTeX Font Info:    No file TUpcr.fd. on input line 56.
 LaTeX Font Warning: Font shape `TU/pcr/m/n' undefined
 (Font)              using `TU/lmr/m/n' instead on input line 56.
 
-[125])
+[125]) [126] [127] [128] [129]
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -2925,7 +2929,7 @@ The property list \__xpg_alias contains the pairs (without outer braces):
 >  {nswissgerman/target}  =>  {german}
 >  {nswissgerman/variant}  =>  {swiss}
 >  {nswissgerman/options}  =>  {variant=swiss,spelling=new}.
- [126] (Analysis.aux
+[130] (Analysis.aux
 LaTeX Info: Redefining \rmfamily on input line 18.
 LaTeX Info: Redefining \sffamily on input line 18.
 LaTeX Info: Redefining \ttfamily on input line 18.
@@ -2949,4 +2953,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  89i,28n,83p,804b,726s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on Analysis.pdf (127 pages).
+Output written on Analysis.pdf (131 pages).

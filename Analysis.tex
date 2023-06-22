@@ -116,4 +116,143 @@
 
 \input{./Section/23.tex}
 
+\newpage
+
+\section*{Blatt 25}
+
+\newpage
+
+\subsection*{Aufgabe 25.4(H)}
+
+\begin{enumerate}
+
+\item[]
+
+\begin{proof}
+Zur Beweis sei die Gleichung
+\begin{align*}
+\lim_{N\rightarrow\infty}\sum_{n=1}^{2N}(-1)^{n-1}\frac{1}{n}=\ln(2)
+\end{align*}
+Wir fangen mit der linken Seite an. Zuerst ersetzen $n$ zur $n+1$ erhalten
+\begin{align*}
+\lim_{N\rightarrow\infty}\sum_{n=0}^{2N}(-1)^n\frac{1}{n+1}=\sum_{n=0}^{\infty}(-1)^n\frac{1}{n+1}=\sum_{n=0}^{\infty}(-1)^n\frac{1^{n+1}}{n+1}
+\end{align*}
+Es ist tatsächlich folgendes Integral
+\begin{align*}
+\sum_{n=0}^{\infty}(-1)^n\frac{1^{n+1}}{n+1}
+=\sum_{n=0}^{\infty}(-1)^n\frac{x^{n+1}}{n+1}\Bigg|^1_0
+=\int^1_0\sum_{n=0}^{\infty}(-1)^n(x)^n dx,
+\hspace{1em}
+\mbox{for }|x|<1
+\end{align*}
+Mit Potenzreihe $\sum_{n=0}^{\infty}(-1)^n(x)^n=\frac{1}{1+x}$ erhalten
+\begin{align*}
+\int^1_0\sum_{n=0}^{\infty}(-1)^n(x)^n dx=\int^1_0\frac{1}{1+x} dx=\ln(2)
+\end{align*}
+\end{proof}
+
+\end{enumerate}
+
+\newpage
+
+\subsection*{Aufgabe 25.5(H)}
+
+\begin{enumerate}
+
+\item[(a)]
+
+Gegeben sei die Funktionenfolge $f_n:[-1,1]\rightarrow\mathbb{R},x\mapsto\frac{nx}{1+n|x|}$. Die Grenzwerte davon sollen in drei fälle diskutiert werden:
+\begin{enumerate}
+
+\item[1.]
+$x=0$
+\begin{align*}
+f=f_n(x)\equiv 0
+\end{align*}
+
+\item[2.]
+$x\in[-1,0)$
+\begin{align*}
+f_n(x)=\frac{nx}{1-nx}
+\end{align*}
+deswegen
+\begin{align*}
+f:=\lim_{n\rightarrow\infty}f_n(x)=\lim_{n\rightarrow\infty}\frac{n}{-n}=-1
+\end{align*}
+
+\item[3.]
+$x\in(0,1]$
+\begin{align*}
+f_n(x)=\frac{nx}{1+nx}
+\end{align*}
+deswegen
+\begin{align*}
+f:=\lim_{n\rightarrow\infty}f_n(x)=\lim_{n\rightarrow\infty}\frac{n}{n}=1
+\end{align*}
+
+\end{enumerate}
+
+Folgerung:
+\begin{align*}
+f=
+\left\{
+\begin{array}{lcl}
+-1, & x\in[-1,0) \\
+0, & x=0 \\
+1, & x\in(0,1]
+\end{array}\right.
+\end{align*}
+
+\item[(b)]
+
+\begin{enumerate}
+
+\item[1.]
+$x=0$
+\begin{align*}
+f\equiv f_n(x)=0
+\end{align*}
+
+\item[2.]
+$x\in[-1,0)$
+\begin{align*}
+|f_n(x)-f|=\bigg|\frac{nx}{1-nx}+1\bigg|=\bigg|\frac{1}{1-nx}\bigg|=\frac{1}{1-nx}
+\end{align*}
+\begin{align*}
+\sup|f_n(x)-f|=\lim_{x\uparrow 0}\frac{1}{1-nx}=1
+\end{align*}
+
+\item[3.]
+$x\in(0,1]$
+\begin{align*}
+|f_n(x)-f|=\bigg|\frac{nx}{1+nx}-1\bigg|=\bigg|\frac{-1}{1+nx}\bigg|=\frac{1}{1+nx}
+\end{align*}
+\begin{align*}
+\sup|f_n(x)-f|=\lim_{x\downarrow 0}\frac{1}{1+nx}=1
+\end{align*}
+
+\end{enumerate}
+
+Folgerung: Die Funktionenfolge konvergiert gegen $f$ nicht gleichmäßig.
+
+\newpage
+
+\item[(c)]
+$f$ ist Riemann-integrierbar (Heuristik, ohne Beweis). Es soll $\int_{-1}^1 fdx=0$ \\
+
+Wir berechnen nun die Integrale für $f_n$ und $f$
+\begin{align*}
+\int_0^1 f_n(x)dx=\int_0^1 \frac{nx}{1+nx}dx=\bigg(x-\frac{\ln(nx+1)}{n}\bigg)\Bigg|_0^1=1-\frac{\ln(n+1)}{n}
+\end{align*}
+die Grenzwert davon
+\begin{align*}
+\lim_{n\rightarrow\infty}\bigg(1-\frac{\ln(n+1)}{n}\bigg)=1-\underset{\mbox{(L'Hôpital)}}{\lim_{n\rightarrow\infty}\bigg(\frac{\frac{1}{1+n}}{1}\bigg)}=1
+\end{align*}
+für $f=1$
+\begin{align*}
+\int_0^1 f(x)dx=x\bigg|_0^1=1
+\end{align*}
+
+\end{enumerate}
+
 \end{document}
